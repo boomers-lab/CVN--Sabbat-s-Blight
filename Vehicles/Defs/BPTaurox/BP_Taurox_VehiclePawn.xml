@@ -1,53 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-	
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
-		<defName>BP_LemanRuss</defName>
-		<label>Urdeshi Leman Russ Tank</label>
-		<description>The standard battle tank of the Imperial Guard, this Leman Russ was forged on Urdesh. Urdeshi machines tend to be far less pristine then ones produced elsewhere, often resulting in further field retrofits being desired by those that field them. This particular variant has been claimed by the Blood Pact\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<defName>GW_BP_Taurox</defName>
+		<label>Taurox</label>
+		<description>A tracked armored personnel carrier used by the Astra Militarum. Relatively fast for an APC, it can rapidly deploy large numbers of Guardsmen to exploit weaknesses in the enemy’s defenses or plug up holes in Imperial lines. \n\nThis design is unarmed, but older versions used to possess heavy bolters and lascannons for defense. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>	
 		<graphicData>
-			<texPath>Things/Vehicles/BPLemanRuss/BP_LemanRussMain/BP_LemanRuss/BP_LemanRuss</texPath>
+			<texPath>Things/Vehicles/Taurox/Taurox</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(6, 6)</drawSize>
+			<drawSize>(7, 7)</drawSize>
 			<color>(155, 155, 155)</color>
 			<colorTwo>(65, 75, 80)</colorTwo>
 			<colorThree>(45, 50, 45)</colorThree>
-		</graphicData>
-		<drawProperties>
-			<graphicOverlays>
-				<li>
-					<graphicData>
-						<texPath>Things/Vehicles/BPLemanRuss/BP_LemanRussMain/BP_Cover/BP_Cover</texPath>
-						<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
-						<drawSize>(6,6)</drawSize>
-						<layer>2</layer>
-						<shaderType>CutoutComplexPattern</shaderType>
-					</graphicData>
-				</li>
-			</graphicOverlays>
-		</drawProperties>
+		</graphicData> 
+
 		<fillPercent>1</fillPercent>
-		<buildDef>BP_LemanRuss_Blueprint</buildDef>
-		<size>(5, 5)</size>
-		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		
+		<buildDef>GW_Taurox_blueprint</buildDef>
+		
+		<size>(4, 7)</size>
+
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Land</vehicleType>
-		<statBases>
-			<ArmorRating_Blunt>1.08</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.9</ArmorRating_Sharp>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Flammability>0</Flammability>
-			<MarketValue>4200</MarketValue>
-		</statBases>
-		<vehicleStats>
-			<Mass>620</Mass>
-			<MoveSpeed>7.2</MoveSpeed>
-			<CargoCapacity>225</CargoCapacity>
-			<RepairRate>0.25</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
-		</vehicleStats>
+		
 		<soundSustainersOnEvent>
 			<li>
 				<start>IgnitionOn</start>
@@ -55,51 +32,51 @@
 				<value>GW_VoG_HeavySound</value>
 			</li>
 		</soundSustainersOnEvent>
+
+		<statBases>
+			<ArmorRating_Blunt>1.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.55</ArmorRating_Sharp>
+			<Flammability>0</Flammability>
+			<MarketValue>2240</MarketValue>
+			<Mass>615</Mass>
+		</statBases>
+		
+		<vehicleStats>
+			<Mass>615</Mass>
+			<MoveSpeed>12.2</MoveSpeed>
+			<CargoCapacity>1550</CargoCapacity>
+			<RepairRate>4</RepairRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
+		</vehicleStats>
+		
+		
 		<race>
-			<baseBodySize>4.0</baseBodySize>
+			<baseBodySize>20.5</baseBodySize>
 		</race>
+		
 		<properties>
-			<customSnowCategoryTicks AssignDefaults="1" />
-			<customRoadCosts AssignDefaults="0.33" />
-			<winterSpeedMultiplier>0.75</winterSpeedMultiplier>
-			<worldSpeedMultiplier>1.25</worldSpeedMultiplier>
-			<offRoadMultiplier>0.75</offRoadMultiplier>
 			<vehicleJobLimitations>
-				<li>(RepairVehicle, 5)</li>
+				<li>(RepairVehicle, 20)</li>
 			</vehicleJobLimitations>
 			<roles>
 				<li>
-					<key>driver</key>
-					<label>Driver</label>
+					<key>pilot</key>
+					<label>Pilot</label>
 					<slots>1</slots>
 					<slotsToOperate>1</slotsToOperate>
+					
 					<handlingTypes>
 						<li>Movement</li>
-						<li>Turret</li>
 					</handlingTypes>
-					<turretIds>
-						<li>frontMountedTurret</li>
-					</turretIds>
-				</li>
-				<li>
-					<key>gunner</key>
-					<label>Gunner</label>
-					<slots>1</slots>
-					<slotsToOperate>1</slotsToOperate>
-					<handlingTypes>Turret</handlingTypes>
-					<turretIds>
-						<li>mainTurret</li>
-						<li>leftMountedTurret</li>
-						<li>rightMountedTurret</li>
-					</turretIds>
 				</li>
 				<li>
 					<key>passenger</key>
 					<label>Passenger</label>
-					<slots>2</slots>
+					<slots>10</slots>
 				</li>
 			</roles>
 		</properties>
+		
 		<components>
 			<li>
 				<key>Engine</key>
@@ -123,20 +100,6 @@
 				<categories>
 					<li>MoveSpeed</li>
 				</categories>
-			</li>
-			<li>
-				<key>AmmoRack</key>
-				<label>Ammo Rack</label>
-				<health>50</health>
-				<depth>Internal</depth>
-				<reactors>
-					<li Class="Vehicles.Reactor_Explosive">
-						<indicator>VF_Explosive</indicator>
-						<chance>0.25</chance>
-						<radius>2</radius>
-						<damageDef>Bomb</damageDef>
-					</li>
-				</reactors>
 			</li>
 			<li>
 				<key>LeftTrack</key>
@@ -173,7 +136,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>55</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -191,7 +154,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>55</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -209,7 +172,7 @@
 			<li>
 				<key>BackLeftDriveSprocket</key>
 				<label>Back Left Drive Sprocket</label>
-				<health>50</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -227,7 +190,7 @@
 			<li>
 				<key>BackRightDriveSprocket</key>
 				<label>Back Right Drive Sprocket</label>
-				<health>50</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -272,7 +235,7 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>265</health>
+				<health>250</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
@@ -285,7 +248,7 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>265</health>
+				<health>250</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
@@ -298,7 +261,7 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>185</health>
+				<health>200</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
@@ -311,16 +274,10 @@
 			<li>
 				<key>FuelTank</key>
 				<label>Fuel Tank</label>
-				<health>125</health>
+				<health>150</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak" />
-					<li Class="Vehicles.Reactor_Explosive">
-						<indicator>VF_Explosive</indicator>
-						<chance>0.15</chance>
-						<radius>5</radius>
-						<damageDef>Bomb</damageDef>
-					</li>
 				</reactors>
 				<hitbox>
 					<cells>
@@ -338,7 +295,7 @@
 			<li>
 				<key>SteeringApparatus</key>
 				<label>Steering Apparatus</label>
-				<health>55</health>
+				<health>50</health>
 				<depth>Internal</depth>
 				<hitWeight>5</hitWeight>
 			</li>
@@ -360,76 +317,19 @@
 				<hitWeight>10</hitWeight>
 			</li>
 		</components>
+
 		<comps>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
-				<fuelConsumptionRate>40</fuelConsumptionRate>
-				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
-				<fuelCapacity>130</fuelCapacity>
+				<fuelConsumptionRate>36</fuelConsumptionRate>
+				<fuelConsumptionWorldMultiplier>0.75</fuelConsumptionWorldMultiplier>
+				<fuelCapacity>135</fuelCapacity>
 			</li>
-		    <li Class = "Vehicles.CompProperties_UpgradeTree">
-				<def>BP_Lemanruss_UpgradeTree</def>
-			</li>
+
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
-				<turrets>
-					<li>
-						<turretDef>BP_LemanRuss_MainTurret</turretDef>
-							<renderProperties>
-								<north>(0.0, 0.2)</north>
-								<south>(0.0, -0.2)</south>
-								<east>(0.2, 0)</east>
-							</renderProperties>
-							<drawLayer>5</drawLayer>
-							<gizmoLabel>Battle Cannon</gizmoLabel>
-							<angleRestricted/>
-							<aimPieOffset>(0, 1.4)</aimPieOffset>
-							<key>mainTurret</key>
-						</li>
-					<li>
-						<turretDef>GW_Vehicle_HeavyBolter</turretDef>
-						<renderProperties>
-							<north>(-2, 0)</north>
-							<south>(2, -0.15)</south>
-							<east>(0.12, 2.15)</east>
-							<west>(-0.15, -2.15)</west>
-						</renderProperties>
-						<gizmoLabel>Left Sponson Bolter</gizmoLabel>
-						<angleRestricted>(270, 0)</angleRestricted>
-						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>leftMountedTurret</key>
-					</li>
-					<li>
-						<turretDef>GW_Vehicle_HeavyBolter</turretDef>
-						<renderProperties>
-							<north>(-0.43, 1.8)</north>
-							<south>(0.43, -1.45)</south>
-							<east>(1.7, 0.38)</east>
-							<west>(-1.7, -0.38)</west>
-						</renderProperties>
-						<gizmoLabel>Hull Bolter</gizmoLabel>
-						<angleRestricted>(295, 65)</angleRestricted>
-						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>frontMountedTurret</key>
-					</li>
-					<li>
-						<turretDef>GW_Vehicle_HeavyBolter</turretDef>
-						<renderProperties>
-							<north>(2, 0)</north>
-							<south>(-2, -0.15)</south>
-							<east>(0.12, -2.15)</east>
-							<west>(-0.15, 2.15)</west>
-						</renderProperties>
-						<gizmoLabel>Right Sponson Bolter</gizmoLabel>
-						<angleRestricted>(0, 90)</angleRestricted>
-						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>rightMountedTurret</key>
-					</li>
-				</turrets>
 			</li>
+
 		</comps>
 	</Vehicles.VehicleDef>
 

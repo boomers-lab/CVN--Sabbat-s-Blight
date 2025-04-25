@@ -6,53 +6,22 @@
 		<defName>BP_Lemanruss_UpgradeTree</defName>		 
 		<nodes>
 			<li>
-				<key>BasicBPLemanUpgrade</key>
-				<label>Standard</label>
-				<description>Install a standard battle cannon</description>
-				<icon>Things/Vehicles/BPLemanRuss/BP_LemanRussMain/BP_MainCannon/BP_MainCannon</icon>
-				<work>7500</work>
-				<gridCoordinate>(5, 5)</gridCoordinate>
-				<drawSize>(80, 80)</drawSize>
-				<disableIfUpgradeNodesEnabled>
-				 <li>ExecutionerUpgrade</li>
-				 <li>PunisherUpgrade</li>
-				</disableIfUpgradeNodesEnabled>
-				<upgrades>
-					<li Class = "Vehicles.TurretUpgrade">
-						<turrets>
-							<li>
-								<turretDef>BP_LemanRuss_MainTurret</turretDef>
-								<renderProperties>
-							<north>(0, 0.01)</north>
-							<south>(0, -0.4)</south>
-							<east>(-0.4, 0.05)</east>
-								</renderProperties>
-								<drawLayer>2</drawLayer>
-								<gizmoLabel>Main Turret</gizmoLabel>
-								<angleRestricted/>
-								<aimPieOffset>(0, 1.4)</aimPieOffset>
-								<key>mainTurret</key>
-							</li>
-						</turrets>
-					</li>
-				</upgrades>
-				<ingredients>
-				 <Steel>125</Steel>
-			     <HP_Ceramite>80</HP_Ceramite>
-				 <ComponentIndustrial>4</ComponentIndustrial>
-				 <GW_VehicleCannon>1</GW_VehicleCannon>
-				</ingredients>
-			</li>
-			<li>
-				<key>Ram</key>
-				<label>Reinforced Bumper</label>
+				<key>DozerBlade</key>
+				<label>Dozer Blade</label>
 				<description>Reinforce the front bumper to allow this vehicle to deal more damage during collisions.</description>
 				<icon>Things/Vehicles/BPLemanRuss/BP_Ram/BP_Ram_east</icon>
 				<work>1800</work>
-				<gridCoordinate>(15, 15)</gridCoordinate>
+				<gridCoordinate>(5, 5)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
 				<upgrades>
 					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>MoveSpeed</def>
+								<value>-0.3</value>
+								<type>Add</type>
+							</li>
+						</vehicleStats>
 						<statCategories>
 							<li>
 								<def>PawnCollisionMultiplier</def>
@@ -78,6 +47,52 @@
 					<li>
 						<graphicData>
 							<texPath>Things/Vehicles/BPLemanRuss/BP_Ram/BP_Ram</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(6,6)</drawSize>
+							<layer>0</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>TurretSpikes</key>
+				<label>Turret Spikes</label>
+				<description>Embrace the signature look of Chaos, with spikes from Angron's fall 40,020 collection.</description>
+				<icon>Things/Vehicles/BPLemanRuss/BP_MainCannonSpikes/BP_MainCannon_Spikes</icon>
+				<work>1800</work>
+				<gridCoordinate>(5, 10)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<upgrades>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<health>
+							<li>
+								<key>BackArmorPlating</key>
+								<value>100</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<key>RightArmorPlating</key>
+								<value>100</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<key>LeftArmorPlating</key>
+								<value>100</value>
+								<type>Add</type>
+							</li>
+						</health>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>75</Steel>
+			     <HP_Ceramite>40</HP_Ceramite>
+				 <ComponentIndustrial>2</ComponentIndustrial>
+				</ingredients>
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Things/Vehicles/BPLemanRuss/BP_MainCannonSpikes/BP_MainCannon_Spikes</texPath>
 							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 							<drawSize>(5,5)</drawSize>
 							<layer>1</layer>
