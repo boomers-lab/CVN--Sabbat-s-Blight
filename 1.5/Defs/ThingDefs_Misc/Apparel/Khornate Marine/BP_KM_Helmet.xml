@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_KhornemarineH</defName>
+		<label>Pact Berzerker Helmet</label>
+        <description>Chaos space marines dedicated to the worship of Khorne, they are driven by only one purpose: slaughter.\n\nthe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Headgear/BP_BerserkerHelmet_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisites>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.90</ArmorRating_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+			<MeleeHitChance>1</MeleeHitChance>
+			<AimingDelayFactor>-0.25</AimingDelayFactor>
+            <ShootingAccuracyPawn>-2.5</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>BerserkerBP</li>
+			</tags>
+		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Headgear/BP_BerserkerHelmet</wornGraphicPath>
+			<drawData>
+				<scale>1</scale>
+				<dataSouth>
+					<offset>(0, 0, 0.21)</offset>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.21)</offset>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.21)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.21)</offset>
+				</dataWest>
+			</drawData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <soundWear>Wear_PowerArmor</soundWear>
+            <soundRemove>Remove_PowerArmor</soundRemove>
+		    <gender>Male</gender>
+		</apparel>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+			<Steel>100</Steel>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+	 <modExtensions>
+      <li Class="taranchuk_apparelgraphics.ApparelExtension">
+       <hideBody>True</hideBody>
+       <femaleBody>Male</femaleBody>
+       <maleBody>Male</maleBody>
+      </li>
+     </modExtensions>
+    </ThingDef>
+
+</Defs>

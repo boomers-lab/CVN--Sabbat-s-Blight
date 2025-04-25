@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Flakhelm</defName>
+        <label>Pact Flak Helmet</label>
+        <description>A stolen flak helmet, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>20</Steel>
+			<HP_Ceramite>5</HP_Ceramite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>2</Mass>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</wornGraphicPath>
+		    <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Flakghelm</defName>
+        <label>Pact Gas Mask</label>
+        <description>A stolen flak helmet outfitted with a gas mask, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>25</Steel>
+			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>2.5</Mass>
+            <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.41</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <EquipDelay>1.6</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+         <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.75</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_SirdarMaskA</defName>
+        <label>Grotesque A</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal. Arguably the most iconic symbol of the pact, it instills a sense of dread in those who face them.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>30</Steel>
+			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+    <ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_SirdarMaskB</defName>
+        <label>Grotesque B</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal. Arguably the most iconic symbol of the pact, it instills a sense of dread in those who face them.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>30</Steel>
+			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_DBmaskA</defName>
+        <label>Death Brigade Grotesque A</label>
+        <description>Reinforced masks reserved for members of the Death Brigade.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>30</Steel>
+			<HP_Ceramite>10</HP_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_DBmaskB</defName>
+        <label>Death Brigade Grotesque B</label>
+        <description>Reinforced masks reserved for members of the Death Brigade.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>40</Steel>
+			<HP_Ceramite>30</HP_Ceramite>
+			<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Arnogaurmask</defName>
+        <label>Arnogaur Grotesque</label>
+        <description>A grotesque forged to imitate the visage of Urlock Gaur.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur_south</texPath>
+        </graphicData>
+		<costList>
+			<Steel>55</Steel>
+			<HP_Ceramite>60</HP_Ceramite>
+		    <ComponentIndustrial>3</ComponentIndustrial>
+			<Gold>10</Gold>
+        </costList>
+        <statBases>
+            <WorkToMake>11000</WorkToMake>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Mass>7</Mass>
+            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <EquipDelay>6.5</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+			<SocialImpact>0.1</SocialImpact>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>CVN_ImperialArmor2</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+
+</Defs>

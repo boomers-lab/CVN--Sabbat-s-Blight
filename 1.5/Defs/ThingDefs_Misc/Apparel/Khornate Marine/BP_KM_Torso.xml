@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_KhornemarineT</defName>
+		<label>Pact Berzerker Armor</label>
+        <description>Chaos space marines dedicated to the worship of Khorne, they are driven by only one purpose: slaughter.\n\nthe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Torso/BP_BerserkerTorso_Male_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+		    <researchPrerequisites>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>12</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.90</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		    <MoveSpeed>0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>BerserkerBP</li>
+			</tags>
+		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Torso/BP_BerserkerTorso</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <soundWear>Wear_PowerArmor</soundWear>
+            <soundRemove>Remove_PowerArmor</soundRemove>
+		    <gender>Male</gender>
+		</apparel>
+		<costList>
+			<ComponentSpacer>7</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>200</Steel>
+			<HP_Ceramite>150</HP_Ceramite>
+		</costList>
+	 <modExtensions>
+      <li Class="taranchuk_apparelgraphics.ApparelExtension">
+       <hideBody>True</hideBody>
+       <femaleBody>Male</femaleBody>
+       <maleBody>Male</maleBody>
+      </li>
+     </modExtensions>
+    </ThingDef>
+
+</Defs>

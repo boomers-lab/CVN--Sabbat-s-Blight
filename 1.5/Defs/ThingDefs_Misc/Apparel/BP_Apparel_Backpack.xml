@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>BP_Backpack</defName>
+    <label>Pact Backpack</label>
+    <description>A basic backpack used by the Pact\n\nThe Pact teachs all of its members to grab anything they can, munitions are scarce, food even more so.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+			 <li>CVN_ImperialArmor1</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+      <recipeUsers>
+        <li>CVN_BP_FabricationBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>340</displayPriority>
+    </recipeMaker>
+		<stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+		<costStuffCount>35</costStuffCount>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackBattleline_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1,1</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>2</Mass>
+      <Flammability>0.5</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+            <CarryingCapacity>15</CarryingCapacity>
+		</equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>PactBackpack</li>
+      </tags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackBattleline</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(0,0)</offset>
+        </north>
+        <south>
+          <offset>(0,0)</offset>
+        </south>
+        <east>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </west>
+        <male>  <scale>(1.1,1.1)</scale></male>
+        <female><scale>(1.1,1.1)</scale></female>
+        <thin>  <scale>(1.1,1.1)</scale></thin>
+        <hulk>  <scale>(1.1,1.1)</scale></hulk>
+        <fat>   <scale>(1.1,1.1)</scale></fat>
+      </wornGraphicData>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>BP_BackpackM</defName>
+    <label>Pact Medicae Backpack</label>
+    <description>A basic backpack used by the Pact. This one has been outfitted with medical supplies\n\nThe Pact teachs all of its members to grab anything they can, munitions are scarce, food even more so.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+			 <li>CVN_ImperialArmor1</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+      <recipeUsers>
+        <li>CVN_BP_FabricationBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <displayPriority>340</displayPriority>
+    </recipeMaker>
+		<stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+		<costStuffCount>65</costStuffCount>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackMedicae_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1,1</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2</Mass>
+      <Flammability>0.5</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>0.2</MedicalTendSpeed>
+            <MedicalTendQuality>0.1</MedicalTendQuality>
+            <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>PactBackpack</li>
+      </tags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackMedicae</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(0,0)</offset>
+        </north>
+        <south>
+          <offset>(0,0)</offset>
+        </south>
+        <east>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </west>
+        <male>  <scale>(1.1,1.1)</scale></male>
+        <female><scale>(1.1,1.1)</scale></female>
+        <thin>  <scale>(1.1,1.1)</scale></thin>
+        <hulk>  <scale>(1.1,1.1)</scale></hulk>
+        <fat>   <scale>(1.1,1.1)</scale></fat>
+      </wornGraphicData>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>BP_KhorneBackpack</defName>
+    <label>Pact Berzerker Backpack</label>
+    <description>A Power Armor backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+			 <li>CVN_ImperialArmor1</li>
+			 <li>CVN_BloodpactBasic</li>
+			</researchPrerequisites>
+      <recipeUsers>
+        <li>CVN_BP_FabricationBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>340</displayPriority>
+    </recipeMaker>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>25</Plasteel>
+			<Steel>25</Steel>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1,1</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>5</Mass>
+      <Flammability>0.1</Flammability>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+            <CarryingCapacity>25</CarryingCapacity>
+		</equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>PactBackpack</li>
+      </tags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north>
+          <offset>(0,0)</offset>
+        </north>
+        <south>
+          <offset>(0,0)</offset>
+        </south>
+        <east>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0,0)</offset>
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat> <offset>(0,0)</offset></fat>
+        </west>
+        <male>  <scale>(1.1,1.1)</scale></male>
+        <female><scale>(1.1,1.1)</scale></female>
+        <thin>  <scale>(1.1,1.1)</scale></thin>
+        <hulk>  <scale>(1.1,1.1)</scale></hulk>
+        <fat>   <scale>(1.1,1.1)</scale></fat>
+      </wornGraphicData>
+	  <useWornGraphicMask>true</useWornGraphicMask>
+    </apparel>
+  </ThingDef>
+
+</Defs>

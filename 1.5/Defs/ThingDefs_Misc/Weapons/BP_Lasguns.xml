@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_Flashlight</defName>
+        <label>Pact Lasgun</label>
+        <description>The most iconic weapon throughout the entire Imperium of Man, the lasgun comes in too many variants to even attempt recording. Lasguns while more expensive to produce, have highly reduced strain logistical networks compared to the Autogun.\n\nPact lasguns dont see much modification outside the installation of bayonets.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Lasrifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		    <drawSize>1.4</drawSize>
+        </graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>42000</WorkToMake>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.75</AccuracyLong>
+            <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>9</ComponentIndustrial>
+        </costList>
+        <weaponTags>
+            <li>BPranged2</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Lasgun</defaultProjectile>
+                <warmupTime>1.20</warmupTime>
+                <range>34.9</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+		<recipeMaker>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="false">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>231</displayPriority>
+			<researchPrerequisites>
+	         <li>CVN_ImperialWeaponsLasguns</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+        </recipeMaker>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>bayonet</label>
+                <capacities>
+                <li>Cut</li>
+                </capacities>
+                <power>13</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_Lasgun</defName>
+        <label>Laser</label>
+        <description>a laser</description>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <armorPenetrationBase>0.15</armorPenetrationBase>
+            <stoppingPower>0.7</stoppingPower>
+            <speed>1000</speed>
+        </projectile>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>8</lifetimeTicks>
+                <beamWidth>1</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
+ 
+    <ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_Laspistol</defName>
+        <label>Pact Laspistol</label>
+        <description>Most commonly seen in the hands of a commissar, Laspistols are rumored to see more use in execution then in actual combat.\n\nDue to the Blood Pacts disdain for killing its own members, Laspistols arent nearly as common within its ranks.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Laspistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+        </graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>38000</WorkToMake>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>BPranged2</li>
+         </weaponTags>
+        <costList>
+          <Steel>65</Steel>
+          <ComponentIndustrial>4</ComponentIndustrial>
+         </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Laspistol</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>25.9</range>
+                <soundCast>Shot_Autopistol</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="false">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>232</displayPriority>
+			<researchPrerequisites>
+	         <li>CVN_ImperialWeaponsLasguns</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+        </recipeMaker>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_Laspistol</defName>
+        <label>Laser</label>
+        <description>a laser</description>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <armorPenetrationBase>0.10</armorPenetrationBase>
+            <stoppingPower>0.7</stoppingPower>
+            <speed>1000</speed>
+        </projectile>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>8</lifetimeTicks>
+                <beamWidth>1</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_longLasgun</defName>
+        <label>Pact Longlas</label>
+        <description>A Lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers, this is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as to not lessen their aim.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Longlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		    <drawSize>1.4</drawSize>
+        </graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>42000</WorkToMake>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.75</AccuracyLong>
+            <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>9</ComponentIndustrial>
+        </costList>
+        <weaponTags>
+            <li>BPranged2</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
+                <warmupTime>3.50</warmupTime>
+                <range>44.9</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+		<recipeMaker>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="false">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>231</displayPriority>
+			<researchPrerequisites>
+	         <li>CVN_ImperialWeaponsLasguns</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+        </recipeMaker>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>bayonet</label>
+                <capacities>
+                <li>Cut</li>
+                </capacities>
+                <power>13</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+    <ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_Longlas</defName>
+        <label>Laser</label>
+        <description>a laser</description>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationBase>0.2</armorPenetrationBase>
+            <stoppingPower>0.7</stoppingPower>
+            <speed>1000</speed>
+        </projectile>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>9</damageTickRate>
+                <lifetimeTicks>8</lifetimeTicks>
+                <beamWidth>1</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+</Defs>

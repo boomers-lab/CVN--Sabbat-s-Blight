@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_PlasmaGun</defName>
+        <label>Pact Plasma Gun</label>
+        <description>Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy.\n\nPlasma Guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pacts defeat on Urdesh</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmarifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>50000</WorkToMake>
+            <Mass>7.5</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.50</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+        </statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>-0.10</MoveSpeed>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <recipeUsers Inherit="False">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>		
+            <researchPrerequisites>
+	         <li>CVN_ImperialWeaponsPlasma</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+			<displayPriority>232</displayPriority>
+        </recipeMaker>
+        <costList>
+		    <Uranium>1</Uranium>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <weaponTags>
+         <li>BPranged3</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Plasma</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>30</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>	
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_Plasma</defName>
+        <label>plasma shot</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>40</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+            <armorPenetrationBase>0.5</armorPenetrationBase>
+            <speed>80</speed>
+        </projectile>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_PlasmaPistol</defName>
+        <label>Pact Plasma Pistol</label>
+        <description>Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy.\n\nPlasma Pistols are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pacts defeat on Urdesh</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmapistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>2.5</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers Inherit="False">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>		
+            <researchPrerequisites>
+	         <li>CVN_ImperialWeaponsPlasma</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+			<displayPriority>233</displayPriority>
+        </recipeMaker>
+        <costList>
+		    <Uranium>1</Uranium>
+            <Plasteel>25</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <weaponTags>
+         <li>BPranged2</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_PlasmaPistol</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>20</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>	
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_PlasmaPistol</defName>
+        <label>plasma shot</label>
+        <graphicData>
+            <texPath>Things/Projectiles/Plasma_Projectile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <stoppingPower>2</stoppingPower>
+            <armorPenetrationBase>0.5</armorPenetrationBase>
+            <speed>80</speed>
+        </projectile>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGWMakeableGun">
+        <defName>Gun_BP_Melta</defName>
+        <label>Pact Melta</label>
+        <description>WIP</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Meltagun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+		    <researchPrerequisites>
+	         <li>CVN_ImperialWeaponsMelta</li>
+			 <li>CVN_BloodpactBasic</li>
+	        </researchPrerequisites>
+			<recipeUsers Inherit="false">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+            <displayPriority>434</displayPriority>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>67500</WorkToMake>
+            <Mass>10</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.65</AccuracyLong>
+            <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+        </statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>-0.20</MoveSpeed>
+		</equippedStatOffsets>
+        <costList>
+            <Steel>100</Steel>
+			<Plasteel>100</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Melta</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>12.9</range>
+                <soundCast>Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+		<weaponTags>
+            <li>BPranged3</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+        <defName>Projectile_CVN_BP_Melta</defName>
+        <label>Laser</label>
+        <description>a laser</description>
+        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
+        <drawOffscreen>true</drawOffscreen>
+        <seeThroughFog>true</seeThroughFog>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectiles/Melta_Projectile</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
+            <stoppingPower>1.2</stoppingPower>
+            <speed>1000</speed>
+        </projectile>
+        <modExtensions>
+            <li Class="taranchuk_lasers.LaserProperties">
+                <damageTickRate>6</damageTickRate>
+                <lifetimeTicks>18</lifetimeTicks>
+                <beamWidth>1</beamWidth>
+                <beamWidthDrawScale>1</beamWidthDrawScale>
+                <sweepRatePerTick>0</sweepRatePerTick>
+                <maxSweepAngle>0</maxSweepAngle>
+                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
+                <debugCells>false</debugCells>
+                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
+                <lockOnTarget>false</lockOnTarget>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

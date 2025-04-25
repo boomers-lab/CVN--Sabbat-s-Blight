@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ScenarioDef>
+        <defName>CVN_BloodPactCrashlanders</defName>
+        <label>Wage war for the Gods</label>
+        <description>Driven from the Sabbat Worlds, you became lost during efforts to regroup with the local Etogaur. Somehow, your warband has arrived on this distant world, a feral place that reminds you of Ghourra.\n\nThere are signs of the false believers having been here, but they lack control and thus cannot drive you out easily. As it stands, your numbers are low - three mere initiates yet to even cut their flesh upon the Archon's armor, a Warrior, and a sole Sirdar to lead you.\n\nLocal tribes already revere blood gods and other such forces. As such, recruitment should prove simple - rebuild your forces and take this world in the name of your Archon.</description>
+        <scenario>
+            <summary>A wayward warband led by a Sirdar, intent on recruiting followers to the blood pact, and conquering this world for the Warlord of the Sabbat Sector.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>BloodpactAM</factionDef>
+            </playerFaction>
+            <parts>
+
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>5</pawnCount>
+                    <pawnChoiceCount>10</pawnChoiceCount>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+                <!-- Items -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <count>15</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>10</count>
+                </li>
+				<li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>25</count>
+                </li>
+				<!-- Apparel -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>BP_SirdarMaskA</thingDef>
+                    <count>1</count>
+                </li>
+				<li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>BP_SirdarArmorA</thingDef>
+                    <count>1</count>
+                </li>
+				<!-- Weapon -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MeleeWeapon_BP_TrenchClub</thingDef>
+                    <count>2</count>
+                    <stuff>Steel</stuff>
+                </li>
+				<li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MeleeWeapon_BP_SabreKnife</thingDef>
+                    <count>1</count>
+                    <stuff>Steel</stuff>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_BP_Autocarbine</thingDef>
+                    <count>1</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_BP_Flashlight</thingDef>
+                    <count>1</count>
+                </li>
+				<!-- Scattered -->
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>500</count>
+                </li>   
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>250</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>ShipChunk</thingDef>
+                    <allowRoofed>false</allowRoofed>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>You arrive through unknown means to this place - perhaps Khorne intended for this to be your new home? Your men desire battle but first you must establish a foothold, for a warrior who has died of hunger is of no use to the throne.\n\nWar will find you - let your enemies come. They shall join the Pact, or become offerings to the Gods.</text>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+	
+</Defs>

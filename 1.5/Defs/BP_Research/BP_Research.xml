@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+    <ResearchProjectDef ParentName="CVN_Guardresearchbase">
+		<defName>CVN_BloodpactBasic</defName>
+		<label>Blood Pact</label>
+		<techLevel>Industrial</techLevel>
+		<tab>CVN_ChaosTech</tab>
+        <description>The Blood Pact, terror of the Sabbat Worlds. They are the largest recorded Khornate cult in the known galaxy, research suggesting they worshipped the chaos gods long before the Imperiums claim to the region.</description>
+		<prerequisites>
+			<li>CVN_ImperialTraitorRegiments</li>
+		</prerequisites>
+        <baseCost>2250</baseCost>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--ResearchProjectDef ParentName="CVN_Guardresearchbase">
+		<defName>CVN_BPreinforcements</defName>
+		<label>Pact Reinforcements</label>
+		<techLevel>Industrial</techLevel>
+		<tab>CVN_ChaosTech</tab>
+        <description>Establishes contact with a nearby brood of Loxatl, and a cult related to the Sons of Sek.</description>
+		<prerequisites>
+			<li>CVN_BloodpactBasic</li>
+		</prerequisites>
+        <baseCost>2250</baseCost>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.50</researchViewY>
+	</ResearchProjectDef-->
+	
+	<ResearchProjectDef ParentName="CVN_Guardresearchbase">
+		<defName>CVN_BloodpactArnogaur</defName>
+		<label>Arnogaur</label>
+		<techLevel>Industrial</techLevel>
+		<tab>CVN_ChaosTech</tab>
+        <description>Personally appointed by Urlock Gaur himself, Arnogaurs are the executioners of any who would disobey his will.</description>
+		<prerequisites>
+			<li>CVN_BloodpactBasic</li>
+		</prerequisites>
+        <baseCost>1750</baseCost>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.50</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="CVN_Guardresearchbase">
+		<defName>CVN_BloodpactVehicles</defName>
+		<label>Pact Vehicles</label>
+		<techLevel>Industrial</techLevel>
+		<tab>CVN_ChaosTech</tab>
+        <description>Specialized vehicles fielded by the Blood Pact</description>
+		<prerequisites>
+			<li>CVN_BloodpactBasic</li>
+		</prerequisites>
+        <baseCost>7500</baseCost>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

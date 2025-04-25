@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="CVN_BP_OnSkinBase">
+    <defName>BP_Pouch</defName>
+    <label>Pact Belt</label>
+    <description>A small belt with a crude metal plate attached, used to help store munitions for extended combat.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Attachments/BP_SirdarPouches_Male_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <RangedCooldownFactor>-0.1</RangedCooldownFactor>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisites>
+		 <li>CVN_ImperialArmor1</li>
+		 <li>CVN_BloodpactBasic</li>
+	  </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <displayPriority>255</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Attachments/BP_SirdarPouches</wornGraphicPath>
+	  <useWornGraphicMask>true</useWornGraphicMask>	
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>BP_Pouchs</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+
+</Defs>
