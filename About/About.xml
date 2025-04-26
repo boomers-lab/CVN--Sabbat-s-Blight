@@ -4,6 +4,7 @@
   <name>GrimWorld 40k/CVN - Sabbat's Blight</name>
   <author>JerryTheCultist, Eridanus</author>
   <packageId>CVN.BloodPact</packageId>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/GW_BP_BloodPactModIcon</modIconPath>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>

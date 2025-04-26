@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="GW_BP_PawnBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>GW_Bloodpact</defaultFactionType>
+        <invNutrition>2.55</invNutrition>
+        <chemicalAddictionChance>0.33</chemicalAddictionChance>
+        <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>1~1</gearHealthRange>
+        <minGenerationAge>18</minGenerationAge>
+        <maxGenerationAge>55</maxGenerationAge>
+        <techHediffsChance>0.03</techHediffsChance>
+        <techHediffsMoney>50~800</techHediffsMoney>
+        <techHediffsTags>
+          <li>Poor</li>
+          <li>Simple</li>
+        </techHediffsTags>
+        <techHediffsDisallowTags>
+          <li>PainCauser</li>
+        </techHediffsDisallowTags>
+        <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
+        <isFighter>true</isFighter>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <Baseliner MayRequire="Ludeon.RimWorld.Biotech">999</Baseliner>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <inventoryOptions>
+            <skipChance>0.9</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FieldMedkit</thingDef>
+                    <countRange>2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_Initiate</defName>
+        <combatPower>45</combatPower>
+        <apparelMoney>20~1000</apparelMoney>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelskin1</li>
+        </apparelTags>
+        <weaponTags>
+            <li>BPMelee1</li>
+        </weaponTags>
+        <weaponMoney>550~850</weaponMoney>
+        <techHediffsChance>0.04</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>2~8</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+  
+</Defs>

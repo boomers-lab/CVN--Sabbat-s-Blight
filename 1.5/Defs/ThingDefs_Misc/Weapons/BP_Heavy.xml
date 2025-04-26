@@ -96,7 +96,7 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>1.0</drawSize>
 		</graphicData>
 		<tools>
 			<li>
