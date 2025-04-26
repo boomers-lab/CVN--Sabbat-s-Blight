@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BaseGWMakeableGun">
-        <defName>Gun_BP_Flashlight</defName>
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_BP_Gun_Flashlight</defName>
         <label>Pact Lasgun</label>
         <description>The most iconic weapon throughout the entire Imperium of Man, the lasgun comes in too many variants to even attempt recording. Lasguns while more expensive to produce, have highly reduced strain logistical networks compared to the Autogun.\n\nPact lasguns dont see much modification outside the installation of bayonets.</description>
         <graphicData>
@@ -34,7 +34,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Lasgun</defaultProjectile>
                 <warmupTime>1.20</warmupTime>
                 <range>34.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>GW_AM_Gun_Kantrael</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -81,7 +81,7 @@
         <seeThroughFog>true</seeThroughFog>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <texPath>Projectiles/Las_Bolt</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <drawSize>1</drawSize>
         </graphicData>
@@ -108,8 +108,8 @@
         </modExtensions>
     </ThingDef>
  
-    <ThingDef ParentName="BaseGWMakeableGun">
-        <defName>Gun_BP_Laspistol</defName>
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_BP_Laspistol</defName>
         <label>Pact Laspistol</label>
         <description>Most commonly seen in the hands of a commissar, Laspistols are rumored to see more use in execution then in actual combat.\n\nDue to the Blood Pacts disdain for killing its own members, Laspistols arent nearly as common within its ranks.</description>
         <graphicData>
@@ -140,8 +140,8 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Projectile_CVN_BP_Laspistol</defaultProjectile>
                 <warmupTime>1</warmupTime>
-                <range>25.9</range>
-                <soundCast>Shot_Autopistol</soundCast>
+                <range>23.9</range>
+                <soundCast>GW_AM_Gun_Kantraeldefender</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -216,8 +216,8 @@
         </modExtensions>
     </ThingDef>
 	
-	<ThingDef ParentName="BaseGWMakeableGun">
-        <defName>Gun_BP_longLasgun</defName>
+	<ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_BP_longLasgun</defName>
         <label>Pact Longlas</label>
         <description>A Lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers, this is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as to not lessen their aim.</description>
         <graphicData>
@@ -249,7 +249,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
                 <warmupTime>3.50</warmupTime>
                 <range>44.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>GW_AM_Gun_Longlas</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>

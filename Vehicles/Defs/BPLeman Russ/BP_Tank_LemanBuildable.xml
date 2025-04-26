@@ -5,7 +5,7 @@
 		<defName>BP_LemanRuss_Blueprint</defName>
 		<label>Pact Leman Russ Tank</label>
 		<description>The standard battle tank of the Imperial Guard, this Leman Russ was forged on Urdesh. Urdeshi machines tend to be far less pristine then ones produced elsewhere, often resulting in further field retrofits being desired by those that field them. This particular variant has been claimed by the Blood Pact\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/BPLemanRuss/BP_LemanRussMain/BP_LemanRuss/BP_LemanRuss</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

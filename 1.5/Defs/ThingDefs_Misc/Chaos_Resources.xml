@@ -8,7 +8,7 @@
     <description>Simple spikes made from nearby salvage, meant to strike fear into the enemies of chaos.</description>
     <graphicData>
       <texPath>Things/Item/Resources/CC_ChaosSpikes</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -34,7 +34,7 @@
     <description>A symbol of Khorne, ready to be welded onto other armor.</description>
     <graphicData>
       <texPath>Things/Item/Resources/CC_MarkOfChaos</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
     <stackLimit>250</stackLimit>

@@ -65,7 +65,7 @@
   </ThingDef>
     
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>MeleeWeapon_BP_TrenchClub</defName>
+    <defName>GW_BP_MeleeWeapon_TrenchClub</defName>
     <label>Trench Club</label>
     <description>A makeshift club, intended for use within cramped spaces. The smaller size allow for fast cruel swings.</description>
     <graphicData>
@@ -127,7 +127,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>MeleeWeapon_BP_ChainSword</defName>
+    <defName>GW_BP_MeleeWeapon_ChainSword</defName>
     <label>Pact Chainsword</label>
     <description>One of the most feared close combat armaments in known space, this particular Chainsword has been salvaged for service in the Blood Pact.</description>
     <graphicData>
@@ -205,7 +205,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>MeleeWeapon_BP_ChainAxe</defName>
+    <defName>GW_BP_MeleeWeapon_ChainAxe</defName>
     <label>Pact Chainaxe</label>
     <description>The favored weapon of all Khornate worshippers, the Chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.</description>
     <graphicData>
@@ -282,7 +282,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>MeleeWeapon_BP_PowerFist</defName>
+        <defName>GW_BP_MeleeWeapon_PowerFist</defName>
         <label>Pact Power Fist</label>
         <description>The Powerfist is a brutal but refined weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets. This fist is likely a gift from the World Eaters.</description>
         <graphicData>
@@ -343,7 +343,7 @@
     </ThingDef>
 	
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>MeleeWeapon_BP_PowerSword</defName>
+        <defName>GW_BP_MeleeWeapon_PowerSword</defName>
         <label>Pact Power Sword</label>
 		<description>Power swords are elegantly crafted blades designed to carve through any target with ease, generally seeing widespread use among any high ranking members of the Imperium\n\nThis sword likely came from a commissar who refused to revoke his rank, and join the Blood Pact.</description>
         <graphicData>

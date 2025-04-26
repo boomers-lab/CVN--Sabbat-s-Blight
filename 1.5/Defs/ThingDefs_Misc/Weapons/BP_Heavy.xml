@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef ParentName="BaseGWMakeableGun">
-		<defName>Gun_BP_MissileLauncher</defName>
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_BP_MissileLauncher</defName>
 		<label>Pact Missile Launcher</label>
 		<description>A standard Astra Millitarum missile launcher, covered in red markings by its new owners.</description>
 		<graphicData>
@@ -40,7 +40,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Projectile_BP_Missile</defaultProjectile>
+				<defaultProjectile>GW_BP_Projectile_Missile</defaultProjectile>
 				<warmupTime>4</warmupTime>
 				<range>36</range>
 				<forcedMissRadius>1</forcedMissRadius>
@@ -75,7 +75,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>Projectile_BP_Missile</defName>
+		<defName>GW_BP_Projectile_Missile</defName>
 		<label>missile</label>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket_Big</texPath>
