@@ -25,8 +25,7 @@
         <label>Pact Fatigues</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -74,8 +73,7 @@
         <label>Death Brigade Fatiques</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -123,8 +121,7 @@
         <label>Arnogaur Chainmail</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialArmor3</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -174,8 +171,7 @@
         <label>Pact Robes</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>

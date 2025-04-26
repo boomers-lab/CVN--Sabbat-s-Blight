@@ -22,7 +22,7 @@
 		<size>(3, 5)</size>
 		
 		<researchPrerequisites>
-			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
+			<li>GW_BP_MechSalvage</li>
 		</researchPrerequisites>
 		
 		<costList>

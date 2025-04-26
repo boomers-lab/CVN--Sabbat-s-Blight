@@ -16,7 +16,7 @@
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisites>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Legion</li>
 			</researchPrerequisites>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>

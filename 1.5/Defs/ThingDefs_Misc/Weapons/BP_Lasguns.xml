@@ -48,8 +48,7 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-	         <li>CVN_ImperialWeaponsLasguns</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 	        </researchPrerequisites>
         </recipeMaker>
         <tools>
@@ -155,8 +154,7 @@
             </recipeUsers>
             <displayPriority>232</displayPriority>
 			<researchPrerequisites>
-	         <li>CVN_ImperialWeaponsLasguns</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 	        </researchPrerequisites>
         </recipeMaker>
         <tools>
@@ -189,7 +187,7 @@
         <seeThroughFog>true</seeThroughFog>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <texPath>Projectiles/Las_Bolt</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <drawSize>1</drawSize>
         </graphicData>
@@ -263,8 +261,7 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-	         <li>CVN_ImperialWeaponsLasguns</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 	        </researchPrerequisites>
         </recipeMaker>
         <tools>

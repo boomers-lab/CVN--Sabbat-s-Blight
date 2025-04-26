@@ -28,8 +28,7 @@
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>		
             <researchPrerequisites>
-	         <li>CVN_ImperialWeaponsPlasma</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_HeatWeapons</li>
 	        </researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -120,8 +119,7 @@
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>		
             <researchPrerequisites>
-	         <li>CVN_ImperialWeaponsPlasma</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_HeatWeapons</li>
 	        </researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -200,8 +198,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
 		    <researchPrerequisites>
-	         <li>CVN_ImperialWeaponsMelta</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_HeatWeapons</li>
 	        </researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>

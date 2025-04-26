@@ -26,8 +26,7 @@
         </statBases>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -72,8 +71,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -118,8 +116,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -164,8 +161,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -210,8 +206,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -256,8 +251,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -304,8 +298,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>

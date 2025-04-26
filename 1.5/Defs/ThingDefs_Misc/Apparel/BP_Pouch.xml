@@ -31,8 +31,7 @@
     </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisites>
-		 <li>CVN_ImperialArmor1</li>
-		 <li>CVN_BloodpactBasic</li>
+		 <li>GW_BP_Basic</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>4</Crafting>

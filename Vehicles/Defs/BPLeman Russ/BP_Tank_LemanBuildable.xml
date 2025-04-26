@@ -18,8 +18,7 @@
 		</statBases>
 		<size>(5, 5)</size>
 		<researchPrerequisites>
-			<li>CVN_ImperialTanks</li>
-			<li>CVN_BloodpactVehicles</li>
+			<li>GW_BP_ReclaimedArmor</li>
 		</researchPrerequisites>
 		<costList>
 			<Steel>475</Steel>

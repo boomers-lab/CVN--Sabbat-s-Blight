@@ -76,7 +76,7 @@
             <texPath>Things/Building/Production/BP_Bench/BloodPactBench</texPath>
         </graphicData>
         <researchPrerequisites>
-		 <li>CVN_BloodpactBasic</li>
+		 <li>GW_BP_Basic</li>
         </researchPrerequisites>
     </ThingDef>
 

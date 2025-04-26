@@ -10,8 +10,7 @@
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Plunder</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>
@@ -99,8 +98,7 @@
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Plunder</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>
@@ -190,8 +188,7 @@
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Legion</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>

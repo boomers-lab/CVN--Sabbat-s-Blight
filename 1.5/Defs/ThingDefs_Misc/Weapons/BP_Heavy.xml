@@ -13,8 +13,7 @@
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<recipeMaker>
 			<researchPrerequisites>
-			 <li>CVN_ImperialWeaponsHeavy</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_AntiArmorWeapons</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="False">
 				<li>CVN_BP_FabricationBench</li>
@@ -88,6 +87,66 @@
 			<explosionRadius>2.9</explosionRadius>
 			<speed>75</speed>
 		</projectile>
+	</ThingDef>
+
+		<ThingDef ParentName="GW_AM_FlamerBase">
+		<defName>GW_BP_Flamer</defName>
+		<label>Blood Pact Flamer</label>
+		<description>Napalm sticks to loyalists.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/BP_Flamer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>CVN_BP_FabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>GW_BP_HeatWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<workSkill>Crafting</workSkill>
+		</recipeMaker>
+		<costList>
+			<Plasteel>90</Plasteel>
+			<Steel>135</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<HP_Ceramite>30</HP_Ceramite>
+		</costList>
+		<statBases>
+			<Mass>14</Mass>
+			<RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
+			<WorkToMake>38000</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_AM_Bullet_Flamer</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>14</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_AM_Flamer_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
 	</ThingDef>
 		
 </Defs>

@@ -71,7 +71,7 @@
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>GW_BP_Flashlight</thingDef>
+                    <thingDef>GW_BP_Gun_Flashlight</thingDef>
                     <count>1</count>
                 </li>
 				<!-- Scattered -->

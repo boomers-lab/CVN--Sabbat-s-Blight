@@ -40,8 +40,7 @@
         </graphicData>
 		<recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialWeaponsAutoguns</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>
@@ -113,8 +112,7 @@
         </graphicData>
 		<recipeMaker>
 		    <researchPrerequisites>
-			 <li>CVN_ImperialWeaponsAutoguns</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>
@@ -188,8 +186,7 @@
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       	<researchPrerequisites>
-		 <li>CVN_ImperialWeaponsAutoguns</li>
-		 <li>CVN_BloodpactBasic</li>
+		 <li>GW_BP_Basic</li>
 		</researchPrerequisites>
 	  <recipeUsers Inherit="false">
         <li>CVN_BP_FabricationBench</li>
@@ -262,8 +259,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
 		    <researchPrerequisites>
-		     <li>CVN_ImperialWeaponsAutoguns</li>
-		     <li>CVN_BloodpactBasic</li>
+		     <li>GW_BP_Vanguard</li>
 		    </researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>

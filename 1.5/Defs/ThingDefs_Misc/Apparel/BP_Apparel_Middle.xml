@@ -33,8 +33,7 @@
         <description>Stolen flak armor, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -81,8 +80,7 @@
         <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -132,8 +130,7 @@
         <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor2</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -183,8 +180,7 @@
         <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor3</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -241,8 +237,7 @@
         <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor3</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -299,8 +294,7 @@
         <description>Forged in the image of Urlock Gaur, This armor represents the highest rank one can achieve within the Pact. Arnogaurs are tasked with the removal of traitors from the ranks, being the only rank who hold the permission outside the Gaur himself to kill members of the Pact.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor3</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -358,8 +352,7 @@
         <description>Gore Mages are spellcasters of Khorne, based heavily in the beliefs of the ancient cults from which the Pact descends. Khornate mages are quite rare due to Khornes hatred of magic, so equipment for them tends to be scarce among his followers, resulting in Gore Mage apparel being fairly crude and heavily armored to encourage them to remain in the frontlines.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>CVN_ImperialArmor1</li>
-			 <li>CVN_BloodpactBasic</li>
+			 <li>GW_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
