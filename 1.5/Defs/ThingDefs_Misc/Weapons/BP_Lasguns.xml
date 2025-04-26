@@ -26,6 +26,7 @@
         </costList>
         <weaponTags>
             <li>BPranged2</li>
+            <li>BPlasGuns</li>
         </weaponTags>
         <verbs>
             <li>
@@ -128,6 +129,7 @@
         </statBases>
         <weaponTags>
             <li>BPranged2</li>
+            <li>BPlasGuns</li>
          </weaponTags>
         <costList>
           <Steel>65</Steel>

@@ -42,7 +42,7 @@
 
   <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Initiate</defName>
-        <combatPower>45</combatPower>
+        <combatPower>40</combatPower>
         <apparelMoney>20~700</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
@@ -112,7 +112,7 @@
         </apparelRequired>
         <weaponTags>
             <li>BPranged1</li>
-            <li>BPranged2</li>
+            <li>BPlasGuns</li>
         </weaponTags>
         <weaponMoney>600~1250</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
