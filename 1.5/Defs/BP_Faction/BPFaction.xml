@@ -26,6 +26,13 @@
     <colorSpectrum>
       <li>(0.54, 0.17, 0.16)</li>
     </colorSpectrum>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
     <allowedCultures><li>Astropolitan</li></allowedCultures>
     <backstoryFilters>
       <li>
@@ -62,6 +69,36 @@
                 <commonality>1</commonality>
                 <options>
                   <GW_BP_Initiate>10</GW_BP_Initiate>
+                  <GW_BP_TraitorGuardMelee>3</GW_BP_TraitorGuardMelee>
+                  <GW_BP_TraitorGuardRanged>8</GW_BP_TraitorGuardRanged>
+                  <GW_BP_Sirdar_Melee>3</GW_BP_Sirdar_Melee>
+                  <GW_BP_Sirdar_Ranged>8</GW_BP_Sirdar_Ranged>
+                  <GW_BP_Sirdar_Gunner>2</GW_BP_Sirdar_Gunner>
+                  <GW_BP_Sirdar_sniper>2</GW_BP_Sirdar_sniper>
+                  <GW_BP_DeathBrigade_Melee>3</GW_BP_DeathBrigade_Melee>
+                  <GW_BP_DeathBrigade_Ranged>6</GW_BP_DeathBrigade_Ranged>
+                  <GW_BP_DeathBrigade_Gunner>2</GW_BP_DeathBrigade_Gunner>
+                  <GW_BP_DeathBrigade_Demo>2</GW_BP_DeathBrigade_Demo>
+                  <GW_BP_Arnogaur>1</GW_BP_Arnogaur>
+                </options>
+              </li>
+
+              <li>
+                <kindDef>Settlement</kindDef>
+                <commonality>1</commonality>
+                <options>
+                  <GW_BP_Initiate>10</GW_BP_Initiate>
+                  <GW_BP_TraitorGuardMelee>3</GW_BP_TraitorGuardMelee>
+                  <GW_BP_TraitorGuardRanged>8</GW_BP_TraitorGuardRanged>
+                  <GW_BP_Sirdar_Melee>3</GW_BP_Sirdar_Melee>
+                  <GW_BP_Sirdar_Ranged>8</GW_BP_Sirdar_Ranged>
+                  <GW_BP_Sirdar_Gunner>2</GW_BP_Sirdar_Gunner>
+                  <GW_BP_Sirdar_sniper>2</GW_BP_Sirdar_sniper>
+                  <GW_BP_DeathBrigade_Melee>3</GW_BP_DeathBrigade_Melee>
+                  <GW_BP_DeathBrigade_Ranged>6</GW_BP_DeathBrigade_Ranged>
+                  <GW_BP_DeathBrigade_Gunner>2</GW_BP_DeathBrigade_Gunner>
+                  <GW_BP_DeathBrigade_Demo>2</GW_BP_DeathBrigade_Demo>
+                  <GW_BP_Arnogaur>1</GW_BP_Arnogaur>
                 </options>
               </li>
           </pawnGroupMakers>
