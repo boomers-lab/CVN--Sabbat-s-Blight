@@ -10,7 +10,43 @@
         </rulePack>
     </RulePackDef>
 
-  <FactionDef ParentName="FactionBase">
+      <FactionDef ParentName="FactionBase" Name="GW_ChaosFactionBase" Abstract="True">
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxCountAtGameStart>1</maxCountAtGameStart>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+        </requiredMemes>
+        <disallowedPrecepts>
+            <li>Slavery_Classic</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+        </disallowedPrecepts>
+        <structureMemeWeights>
+            <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+        </structureMemeWeights>
+        <raidCommonalityFromPointsCurve>
+            <points>
+                <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+            </points>
+        </raidCommonalityFromPointsCurve>
+          <disallowedRaidAgeRestrictions>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Children</li>
+        </disallowedRaidAgeRestrictions>
+    </FactionDef>
+
+  <FactionDef ParentName="GW_ChaosFactionBase">
     <defName>GW_Bloodpact</defName>
     <label>Blood Pact</label>
     <description>A Blood Pact base of operations.</description>
@@ -27,18 +63,11 @@
     <colorSpectrum>
       <li>(0.54, 0.17, 0.16)</li>
     </colorSpectrum>
-    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
-    <settlementGenerationWeight>1</settlementGenerationWeight>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <maxCountAtGameStart>1</maxCountAtGameStart>
-    <canMakeRandomly>true</canMakeRandomly>
-    <canSiege>true</canSiege>
-    <canStageAttacks>true</canStageAttacks>
     <allowedCultures><li>Astropolitan</li></allowedCultures>
     <backstoryFilters>
       <li>
         <categories>
-          <li>Grimworld Blood Pact</li>
+          <li>Offworld</li>
         </categories>
       </li>
     </backstoryFilters>
@@ -83,6 +112,23 @@
                   <GW_BP_Arnogaur>1</GW_BP_Arnogaur>
                 </options>
               </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                  <GW_BP_Initiate>10</GW_BP_Initiate>
+                  <GW_BP_TraitorGuardMelee>3</GW_BP_TraitorGuardMelee>
+                  <GW_BP_TraitorGuardRanged>8</GW_BP_TraitorGuardRanged>
+                  <GW_BP_Sirdar_Melee>3</GW_BP_Sirdar_Melee>
+                  <GW_BP_Sirdar_Ranged>8</GW_BP_Sirdar_Ranged>
+                  <GW_BP_Sirdar_Gunner>2</GW_BP_Sirdar_Gunner>
+                  <GW_BP_Sirdar_sniper>2</GW_BP_Sirdar_sniper>
+                  <GW_BP_DeathBrigade_Melee>3</GW_BP_DeathBrigade_Melee>
+                  <GW_BP_DeathBrigade_Ranged>6</GW_BP_DeathBrigade_Ranged>
+                  <GW_BP_DeathBrigade_Gunner>2</GW_BP_DeathBrigade_Gunner>
+                  <GW_BP_DeathBrigade_Demo>2</GW_BP_DeathBrigade_Demo>
+                  <GW_BP_Arnogaur>1</GW_BP_Arnogaur>
+                </options>
+            </li>
 
               <li>
                 <kindDef>Settlement</kindDef>
