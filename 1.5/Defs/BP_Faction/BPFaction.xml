@@ -19,6 +19,7 @@
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
     <techLevel>Industrial</techLevel>
+    <naturalEnemy>true</naturalEnemy>
     <factionNameMaker>GW_Namer_BloodPact</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
