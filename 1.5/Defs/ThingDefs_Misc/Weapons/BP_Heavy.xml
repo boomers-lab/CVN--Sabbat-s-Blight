@@ -33,7 +33,7 @@
 		</equippedStatOffsets>
 	    <equippedAngleOffset>45</equippedAngleOffset>
 		<weaponTags>
-         <li>BPranged3</li>
+         <li>BPranged4</li>
         </weaponTags>
 		<verbs>
 			<li>
@@ -108,6 +108,9 @@
 				<cooldownTime>2.6</cooldownTime>
 			</li>
 		</tools>
+		<weaponTags>
+         <li>BPranged3</li>
+        </weaponTags>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
 			<recipeUsers Inherit="False">

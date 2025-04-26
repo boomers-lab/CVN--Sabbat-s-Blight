@@ -36,8 +36,14 @@
     </graphicData>
     <statBases>
       <WorkToMake>3500</WorkToMake>
-      <Mass>2</Mass>
-      <Flammability>0.5</Flammability>
+      <MaxHitPoints>300</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.5</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <thingCategories>
@@ -46,6 +52,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
             <CarryingCapacity>15</CarryingCapacity>
+              <CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>
 		</equippedStatOffsets>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -125,6 +132,12 @@
     <statBases>
       <WorkToMake>6000</WorkToMake>
       <Mass>2</Mass>
+      <MaxHitPoints>400</MaxHitPoints>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
       <Flammability>0.5</Flammability>
       <EquipDelay>2</EquipDelay>
     </statBases>
@@ -210,6 +223,18 @@
       <GW_KhornateSymbol>1</GW_KhornateSymbol>
       <GW_ChaosSpikes>1</GW_ChaosSpikes>
 		</costList>
+      <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

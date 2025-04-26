@@ -135,9 +135,40 @@
     </PawnKindDef>
 
     <PawnKindDef ParentName="GW_BP_PawnBase">
-        <defName>GW_BP_Sirdar</defName>
+        <defName>GW_BP_Sirdar_Melee</defName>
         <combatPower>100</combatPower>
         <apparelMoney>2000~2500</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle2</li>
+            <li>BPapparelhead2</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_Fatigues</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPMelee1</li>
+        </weaponTags>
+        <weaponMoney>600~1250</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>5~10</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_Sirdar_Ranged</defName>
+        <combatPower>100</combatPower>
+        <apparelMoney>2200~3000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
@@ -162,9 +193,40 @@
                 <skill>Shooting</skill>
                 <range>5~10</range>
             </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_Sirdar_Gunner</defName>
+        <combatPower>150</combatPower>
+        <apparelMoney>2200~3000</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle2</li>
+            <li>BPapparelhead2</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_Fatigues</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPranged3</li>
+            <li>BPranged4</li>
+        </weaponTags>
+        <weaponMoney>800~1550</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
             <li>
-                <skill>Melee</skill>
-                <range>5~10</range>
+                <skill>Shooting</skill>
+                <range>6~12</range>
             </li>
         </skills>
         <disallowedTraits>
@@ -172,10 +234,76 @@
         </disallowedTraits>
     </PawnKindDef>
 
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_Sirdar_sniper</defName>
+        <combatPower>130</combatPower>
+        <apparelMoney>2100~2600</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle2</li>
+            <li>BPapparelhead2</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_Fatigues</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPlongLasTag</li>
+        </weaponTags>
+        <weaponMoney>800~1550</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>7~12</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_DeathBrigade_Melee</defName>
+        <combatPower>150</combatPower>
+        <apparelMoney>3300~3800</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle3</li>
+            <li>BPapparelhead3</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_DBfatiques</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPMelee1</li>
+            <li>BPMelee2</li>
+        </weaponTags>
+        <weaponMoney>700~1250</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>5~10</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
      <PawnKindDef ParentName="GW_BP_PawnBase">
-        <defName>GW_BP_DeathBrigade</defName>
-        <combatPower>100</combatPower>
-        <apparelMoney>2000~2500</apparelMoney>
+        <defName>GW_BP_DeathBrigade_Ranged</defName>
+        <combatPower>150</combatPower>
+        <apparelMoney>3300~3800</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
@@ -198,11 +326,77 @@
         <skills>
             <li>
                 <skill>Shooting</skill>
-                <range>5~10</range>
+                <range>6~12</range>
             </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_DeathBrigade_Gunner</defName>
+        <combatPower>1800</combatPower>
+        <apparelMoney>3300~3800</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle3</li>
+            <li>BPapparelhead3</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_DBfatiques</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPranged3</li>
+            <li>BPranged4</li>
+        </weaponTags>
+        <weaponMoney>700~1550</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
             <li>
-                <skill>Melee</skill>
-                <range>5~10</range>
+                <skill>Shooting</skill>
+                <range>6~12</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
+    
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_DeathBrigade_Demo</defName>
+        <combatPower>1800</combatPower>
+        <apparelMoney>3300~3800</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle3</li>
+            <li>BPapparelhead3</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_DBfatiques</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPranged4</li>
+        </weaponTags>
+        <weaponMoney>960~2000</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~12</range>
             </li>
         </skills>
         <disallowedTraits>
@@ -212,7 +406,7 @@
 
       <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Arnogaur</defName>
-        <combatPower>200</combatPower>
+        <combatPower>250</combatPower>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelRequired>
@@ -228,6 +422,40 @@
         </weaponTags>
         <weaponMoney>1225~2250</weaponMoney>
         <techHediffsChance>0.1</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>7~15</range>
+            </li>
+        </skills>
+        <forcedTraits>
+            <li>Brawler</li>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_KhorneBerzerker</defName>
+        <combatPower>400</combatPower>
+        <apparelMoney>3000~3500</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>BP_KhornemarineT</li>
+            <li>BP_KhornemarineH</li>
+            <li>BP_KhorneBackpack</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>BPapparelskin1</li>
+        </apparelTags>
+        <weaponTags>
+            <li>BPMelee3</li>
+        </weaponTags>
+        <weaponMoney>1225~2250</weaponMoney>
+        <techHediffsChance>0.2</techHediffsChance>
         <techHediffsMoney>750~1050</techHediffsMoney>
         <techHediffsTags>
             <li>Simple</li>
