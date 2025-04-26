@@ -68,8 +68,8 @@
       <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_TraitorGuardMelee</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>1200~2200</apparelMoney>
-        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <apparelMoney>1500~2500</apparelMoney>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle1</li>
             <li>BPapparelhead1</li>
@@ -101,8 +101,8 @@
       <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_TraitorGuardRanged</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>1500~2200</apparelMoney>
-        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <apparelMoney>1700~2500</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle1</li>
             <li>BPapparelhead1</li>
@@ -137,7 +137,7 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Sirdar_Melee</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>2000~2500</apparelMoney>
+        <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
@@ -168,8 +168,8 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Sirdar_Ranged</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>2200~3000</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>2200~3300</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
@@ -202,8 +202,8 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Sirdar_Gunner</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>2200~3000</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>2200~3300</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
@@ -237,8 +237,8 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Sirdar_sniper</defName>
         <combatPower>130</combatPower>
-        <apparelMoney>2100~2600</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>2200~3300</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
@@ -271,7 +271,7 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Melee</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>3300~3800</apparelMoney>
+        <apparelMoney>4000~4500</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
@@ -303,8 +303,8 @@
      <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Ranged</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>3300~3800</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>4000~4500</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
@@ -337,8 +337,8 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Gunner</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>3300~3800</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>4000~4500</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
@@ -373,8 +373,8 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Demo</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>3300~3800</apparelMoney>
-        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelMoney>4000~4500</apparelMoney>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>

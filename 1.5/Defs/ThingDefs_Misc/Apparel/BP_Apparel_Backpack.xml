@@ -224,7 +224,7 @@
       <GW_ChaosSpikes>1</GW_ChaosSpikes>
 		</costList>
       <statBases>
-			<WorkToMake>25000</WorkToMake>
+			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>260</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.1</Flammability>
@@ -241,12 +241,6 @@
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1,1</drawSize>
     </graphicData>
-    <statBases>
-      <WorkToMake>5000</WorkToMake>
-      <Mass>5</Mass>
-      <Flammability>0.1</Flammability>
-      <EquipDelay>3</EquipDelay>
-    </statBases>
     <thingCategories>
       <li>ApparelUtility</li>
     </thingCategories>
