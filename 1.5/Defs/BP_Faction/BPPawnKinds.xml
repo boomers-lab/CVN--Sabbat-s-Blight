@@ -409,6 +409,7 @@
         <combatPower>250</combatPower>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+        <factionLeader>true</factionLeader>
         <apparelRequired>
             <li>BP_AGchainmail</li>
             <li>BP_Arnogaur</li>
