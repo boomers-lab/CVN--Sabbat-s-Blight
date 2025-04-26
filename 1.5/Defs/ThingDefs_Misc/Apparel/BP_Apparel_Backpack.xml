@@ -207,6 +207,8 @@
 			<Plasteel>25</Plasteel>
 			<Steel>25</Steel>
 			<HP_Ceramite>10</HP_Ceramite>
+      <GW_KhornateSymbol>1</GW_KhornateSymbol>
+      <GW_ChaosSpikes>1</GW_ChaosSpikes>
 		</costList>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack_south</texPath>

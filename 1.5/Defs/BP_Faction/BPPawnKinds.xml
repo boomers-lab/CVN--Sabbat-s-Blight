@@ -137,7 +137,7 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Sirdar</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>1500~2200</apparelMoney>
+        <apparelMoney>2000~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
@@ -172,6 +172,44 @@
         </disallowedTraits>
     </PawnKindDef>
 
+     <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_DeathBrigade</defName>
+        <combatPower>100</combatPower>
+        <apparelMoney>2000~2500</apparelMoney>
+        <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle3</li>
+            <li>BPapparelhead3</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_DBfatiques</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPranged1</li>
+        </weaponTags>
+        <weaponMoney>700~1250</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>5~10</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>5~10</range>
+            </li>
+        </skills>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+    </PawnKindDef>
+
       <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Arnogaur</defName>
         <combatPower>200</combatPower>
@@ -182,10 +220,13 @@
             <li>BP_Arnogaur</li>
             <li>BP_Arnogaurmask</li>
         </apparelRequired>
+        <apparelTags>
+            <li>BPapparelmiddle4</li>
+        </apparelTags>
         <weaponTags>
             <li>BPPowerSwordTag</li>
         </weaponTags>
-        <weaponMoney>600~1350</weaponMoney>
+        <weaponMoney>1225~2250</weaponMoney>
         <techHediffsChance>0.1</techHediffsChance>
         <techHediffsMoney>750~1050</techHediffsMoney>
         <techHediffsTags>

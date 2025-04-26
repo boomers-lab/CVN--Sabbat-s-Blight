@@ -209,6 +209,8 @@
 			<Cloth>15</Cloth>
 			<HP_Ceramite>60</HP_Ceramite>
 		    <ComponentIndustrial>2</ComponentIndustrial>
+            <GW_KhornateSymbol>1</GW_KhornateSymbol>
+            <GW_ChaosSpikes>2</GW_ChaosSpikes>
         </costList>
         <apparel>
             <bodyPartGroups>
@@ -266,6 +268,8 @@
 			<Cloth>15</Cloth>
 			<HP_Ceramite>60</HP_Ceramite>
 		    <ComponentIndustrial>2</ComponentIndustrial>
+            <GW_KhornateSymbol>1</GW_KhornateSymbol>
+            <GW_ChaosSpikes>2</GW_ChaosSpikes>
         </costList>
         <apparel>
             <bodyPartGroups>
@@ -323,6 +327,8 @@
 			<Steel>95</Steel>
 			<HP_Ceramite>100</HP_Ceramite>
 		    <ComponentIndustrial>2</ComponentIndustrial>
+            <GW_KhornateSymbol>2</GW_KhornateSymbol>
+            <GW_ChaosSpikes>3</GW_ChaosSpikes>
 			<Gold>10</Gold>
         </costList>
         <apparel>
@@ -382,6 +388,7 @@
 			<Cloth>15</Cloth>
 			<HP_Ceramite>40</HP_Ceramite>
 		    <ComponentIndustrial>4</ComponentIndustrial>
+            <GW_KhornateSymbol>2</GW_KhornateSymbol>
         </costList>
         <apparel>
             <bodyPartGroups>

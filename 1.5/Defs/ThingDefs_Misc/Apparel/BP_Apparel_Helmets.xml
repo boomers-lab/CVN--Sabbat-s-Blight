@@ -202,6 +202,7 @@
             <Steel>30</Steel>
 			<HP_Ceramite>10</HP_Ceramite>
 			<ComponentIndustrial>2</ComponentIndustrial>
+            <GW_ChaosSpikes>1</GW_ChaosSpikes>
         </costList>	
         <statBases>
             <WorkToMake>7000</WorkToMake>
@@ -230,6 +231,9 @@
             <bodyPartGroups Inherit="False">
                 <li>FullHead</li>
             </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead3</li>
+            </tags>
 			<layers>
                 <li>Overhead</li>
             </layers>
@@ -247,6 +251,7 @@
             <Steel>40</Steel>
 			<HP_Ceramite>30</HP_Ceramite>
 			<ComponentIndustrial>2</ComponentIndustrial>
+            <GW_ChaosSpikes>1</GW_ChaosSpikes>
         </costList>	
         <statBases>
             <WorkToMake>7000</WorkToMake>
@@ -275,6 +280,9 @@
             <bodyPartGroups Inherit="False">
                 <li>FullHead</li>
             </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead3</li>
+            </tags>
 			<layers>
                 <li>Overhead</li>
             </layers>
@@ -293,6 +301,8 @@
 			<HP_Ceramite>60</HP_Ceramite>
 		    <ComponentIndustrial>3</ComponentIndustrial>
 			<Gold>10</Gold>
+            <GW_KhornateSymbol>1</GW_KhornateSymbol>
+            <GW_ChaosSpikes>2</GW_ChaosSpikes>
         </costList>
         <statBases>
             <WorkToMake>11000</WorkToMake>

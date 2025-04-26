@@ -309,6 +309,7 @@
             <Plasteel>80</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
 			<HP_Adamantium>20</HP_Adamantium>
+      <GW_KhornateSymbol>1</GW_KhornateSymbol>
         </costList>
         <weaponTags>
          <li>BPMelee3</li>
@@ -405,6 +406,7 @@
 	    <costList>
             <Plasteel>50</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
+            <GW_KhornateSymbol>1</GW_KhornateSymbol>
 			<HP_Adamantium>20</HP_Adamantium>
         </costList>
     </ThingDef>

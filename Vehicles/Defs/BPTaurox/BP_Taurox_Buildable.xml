@@ -33,6 +33,7 @@
 			<GW_VehicleSuspension>6</GW_VehicleSuspension>
 			<GW_VehicleWheel>6</GW_VehicleWheel>
 			<ComponentIndustrial>24</ComponentIndustrial>
+			<GW_KhornateSymbol>3</GW_KhornateSymbol>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

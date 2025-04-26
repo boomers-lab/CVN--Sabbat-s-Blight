@@ -69,6 +69,8 @@
 			<Plasteel>350</Plasteel>
 			<Steel>200</Steel>
 			<HP_Ceramite>150</HP_Ceramite>
+			<GW_KhornateSymbol>2</GW_KhornateSymbol>
+            <GW_ChaosSpikes>3</GW_ChaosSpikes>
 		</costList>
 	 <modExtensions>
       <li Class="taranchuk_apparelgraphics.ApparelExtension">
