@@ -136,6 +136,7 @@
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>BPMelee2</li>
+      <li>BP_Chainsword_Tag</li>
     </weaponTags>
 	<weaponClasses>
       <li>Melee</li>

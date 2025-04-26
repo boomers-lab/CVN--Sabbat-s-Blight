@@ -24,12 +24,11 @@
         <isFighter>true</isFighter>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
-        <xenotypeSet Inherit="False">
+        <xenotypeSet>
             <xenotypeChances>
-                <Baseliner MayRequire="Ludeon.RimWorld.Biotech">999</Baseliner>
+                <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
             </xenotypeChances>
         </xenotypeSet>
-        <useFactionXenotypes>false</useFactionXenotypes>
         <inventoryOptions>
             <skipChance>0.9</skipChance>
             <subOptionsChooseOne>
@@ -44,7 +43,7 @@
   <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_Initiate</defName>
         <combatPower>45</combatPower>
-        <apparelMoney>20~1000</apparelMoney>
+        <apparelMoney>20~700</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelskin1</li>
@@ -52,7 +51,7 @@
         <weaponTags>
             <li>BPMelee1</li>
         </weaponTags>
-        <weaponMoney>550~850</weaponMoney>
+        <weaponMoney>200~550</weaponMoney>
         <techHediffsChance>0.04</techHediffsChance>
         <techHediffsMoney>750~1050</techHediffsMoney>
         <techHediffsTags>
@@ -64,6 +63,73 @@
                 <range>2~8</range>
             </li>
         </skills>
+    </PawnKindDef>
+
+      <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_TraitorGuardMelee</defName>
+        <combatPower>100</combatPower>
+        <apparelMoney>1200~2200</apparelMoney>
+        <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle1</li>
+            <li>BPapparelhead1</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_Fatigues</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPMelee1</li>
+            <li>BP_Chainsword_Tag</li>
+        </weaponTags>
+        <weaponMoney>550~850</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Melee</skill>
+                <range>6~12</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+      <PawnKindDef ParentName="GW_BP_PawnBase">
+        <defName>GW_BP_TraitorGuardRanged</defName>
+        <combatPower>100</combatPower>
+        <apparelMoney>1500~2200</apparelMoney>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>BPapparelmiddle1</li>
+            <li>BPapparelhead1</li>
+            <li>BP_Pouchs</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>BP_Fatigues</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>BPranged1</li>
+            <li>BPranged2</li>
+        </weaponTags>
+        <weaponMoney>600~1250</weaponMoney>
+        <techHediffsChance>0.07</techHediffsChance>
+        <techHediffsMoney>750~1050</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~12</range>
+            </li>
+        </skills>
+            <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
     </PawnKindDef>
   
 </Defs>

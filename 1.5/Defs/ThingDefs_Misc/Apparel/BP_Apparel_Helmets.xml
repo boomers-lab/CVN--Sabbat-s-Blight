@@ -35,6 +35,9 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</wornGraphicPath>
+            <tags>
+                <li>BPapparelhead1</li>
+            </tags>
 		    <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
@@ -80,6 +83,9 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</wornGraphicPath>
+            <tags>
+                <li>BPapparelhead1</li>
+            </tags>
             <bodyPartGroups Inherit="False">
                 <li>FullHead</li>
             </bodyPartGroups>
