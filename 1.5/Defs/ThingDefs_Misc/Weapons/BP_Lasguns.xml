@@ -293,7 +293,7 @@
         <seeThroughFog>true</seeThroughFog>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Projectiles/Lasgun_shot</texPath>
+            <texPath>Projectiles/Las_Bolt</texPath>
             <shaderType>TransparentPostLight</shaderType>
             <drawSize>1</drawSize>
         </graphicData>
