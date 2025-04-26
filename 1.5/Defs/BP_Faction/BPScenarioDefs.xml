@@ -101,6 +101,14 @@
                     <text>You arrive through unknown means to this place - perhaps Khorne intended for this to be your new home? Your men desire battle but first you must establish a foothold, for a warrior who has died of hunger is of no use to the throne.\n\nWar will find you - let your enemies come. They shall join the Pact, or become offerings to the Gods.</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
+                <li Class="VFECore.ScenPart_ForcedFactionGoodwill">
+				<factionDef>GW_Bloodpact</factionDef>
+				<affectStartingGoodwill>True</affectStartingGoodwill>
+				<startingGoodwillRange>68~88</startingGoodwillRange>
+				<affectNaturalGoodwill>True</affectNaturalGoodwill>
+				<naturalGoodwillRange>42~97</naturalGoodwillRange>
+				<def>VFEC_ForcedFactionGoodwill</def>
+			</li>
             </parts>
         </scenario>
     </ScenarioDef>
