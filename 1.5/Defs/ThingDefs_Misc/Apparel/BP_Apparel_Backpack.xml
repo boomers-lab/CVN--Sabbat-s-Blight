@@ -236,9 +236,6 @@
       <layers>
         <li>Belt</li>
       </layers>
-      <tags>
-        <li>PactBackpack</li>
-      </tags>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>true</renderUtilityAsPack>

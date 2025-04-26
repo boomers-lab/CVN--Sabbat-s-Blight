@@ -351,6 +351,7 @@
         <techLevel>Spacer</techLevel>
         <weaponTags>
          <li>BPMelee3</li>
+         <li>BPPowerSwordTag</li>
         </weaponTags>
 		<weaponClasses>
          <li>Melee</li>
