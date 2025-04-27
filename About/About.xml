@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <name>GrimWorld 40k/CVN - Sabbat's Blight</name>
-  <author>JerryTheCultist, Eridanus</author>
+  <name>GrimWorld 40,000 - Sabbat's Blight</name>
+  <author>JerryTheCultist, Eridanus, Abomination, BlackMarket420, Artemiish, Gerrymon, The Suspect, Razzberry, Forrr</author>
   <packageId>CVN.BloodPact</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/GW_BP_BloodPactModIcon</modIconPath>
   <supportedVersions>
