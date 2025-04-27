@@ -284,8 +284,9 @@
         <weaponTags>
             <li>BPMelee1</li>
             <li>BPMelee2</li>
+            <li>BPMelee3</li>
         </weaponTags>
-        <weaponMoney>700~1250</weaponMoney>
+        <weaponMoney>700~2500</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
         <techHediffsMoney>750~1050</techHediffsMoney>
         <techHediffsTags>
@@ -453,9 +454,10 @@
             <li>BPapparelskin1</li>
         </apparelTags>
         <weaponTags>
+            <li>BPMelee2</li>
             <li>BPMelee3</li>
         </weaponTags>
-        <weaponMoney>1225~2250</weaponMoney>
+        <weaponMoney>1225~4500</weaponMoney>
         <techHediffsChance>0.2</techHediffsChance>
         <techHediffsMoney>750~1050</techHediffsMoney>
         <techHediffsTags>
