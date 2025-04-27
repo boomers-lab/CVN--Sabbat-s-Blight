@@ -280,7 +280,6 @@
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
-            <li>BPapparelskin2</li>
         </apparelTags>
         <weaponTags>
             <li>BPMelee1</li>
@@ -311,7 +310,6 @@
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
-            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
             <li>BP_DBfatigues</li>
@@ -346,7 +344,6 @@
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
-            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
             <li>BP_DBfatigues</li>
@@ -382,7 +379,6 @@
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
-            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
             <li>BP_DBfatigues</li>

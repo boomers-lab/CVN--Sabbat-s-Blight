@@ -81,6 +81,8 @@
     <apparelStuffFilter>
       <thingDefs>
         <li>Cloth</li>
+        <li>Leather_Plain</li>
+        <li>Steel</li>
       </thingDefs>
     </apparelStuffFilter>
     <maxPawnCostPerTotalPointsCurve>
