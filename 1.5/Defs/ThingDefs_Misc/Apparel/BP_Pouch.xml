@@ -5,7 +5,7 @@
   <ThingDef ParentName="CVN_BP_OnSkinBase">
     <defName>BP_Pouch</defName>
     <label>Sirdar protector belt</label>
-    <description>A small belt with a crude metal plate attached, used to help store munitions for extended combat & additional abdominal protection.</description>
+    <description>A small belt with a crude metal plate attached, used to help store munitions for extended combat and additional abdominal protection.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Attachments/BP_SirdarPouches_Male_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>

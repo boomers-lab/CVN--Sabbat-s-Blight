@@ -98,7 +98,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_BP_PlasmaPistol</defName>
         <label>Pact Plasma Pistol</label>
-        <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while being used regularly with senior members & melee specialists.</description>
+        <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while being used regularly with senior members and melee specialists.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmapistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
