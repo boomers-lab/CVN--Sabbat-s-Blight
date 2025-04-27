@@ -17,7 +17,7 @@
 
 		<fillPercent>1</fillPercent>
 		
-		<buildDef>GW_Taurox_blueprint</buildDef>
+		<buildDef>GW_BP_Taurox_blueprint</buildDef>
 		
 		<size>(4, 7)</size>
 
