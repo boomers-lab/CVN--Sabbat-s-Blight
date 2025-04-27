@@ -29,8 +29,8 @@
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_FlakArmor</defName>
-        <label>Pact Flak Armor</label>
-        <description>Stolen flak armor, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
+        <label>Salvaged Flak armor</label>
+        <description>A suit of Imperial Guard flak armor, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the basic hand-forged Blood Pact armors.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Plunder</li>
@@ -76,8 +76,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_SirdarArmorA</defName>
-        <label>Sirdar Armor A</label>
-        <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage.</description>
+        <label>Sirdar plate</label>
+        <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage. Crude, sharp spikes adorn its shell, lacerating the enemy and spilling their blood for Khorne. \n\n"Khorne cares not from whence the blood flows, only that it flows!"</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Basic</li>
@@ -126,8 +126,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_SirdarArmorB</defName>
-        <label>Sirdar Armor B</label>
-        <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage.</description>
+        <label>Sirdar armor</label>
+        <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from metal and battle salvage. Crude and barbaric, no two Blood Pact troopers ever appear the same, as their uniforms are the result of plunder, scavenging, and field customization.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Basic</li>
@@ -176,8 +176,8 @@
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_DBArmorA</defName>
-        <label>Death Brigade Armor A</label>
-        <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade.</description>
+        <label>Death spiked carapace</label>
+        <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade. Carapace Armour consists of large, rigid plates of ceramite, molded to fit parts of the body. Carapace Armour is stronger and thicker than the Flak Armour.\n\n This particular design features a single spiked shoulder pad and reinforcements made of rebar on the back.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Vanguard</li>
@@ -235,8 +235,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_DBArmorB</defName>
-        <label>Death Brigade Armor B</label>
-        <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade.</description>
+        <label>Death carapace armor</label>
+        <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade. Carapace Armour consists of large, rigid plates of ceramite, molded to fit parts of the body. Carapace Armour is stronger and thicker than the Flak Armour.\n\n This particular design features a streamlined look, with a daemon skull motif on its shoulder.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Vanguard</li>
@@ -294,8 +294,8 @@
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_Arnogaur</defName>
-        <label>Arnogaur Armor</label>
-        <description>Forged in the image of Urlock Gaur, This armor represents the highest rank one can achieve within the Pact. Arnogaurs are tasked with the removal of traitors from the ranks, being the only rank who hold the permission outside the Gaur himself to kill members of the Pact.</description>
+        <label>Arnogaur battleplate</label>
+        <description>Forged in the image of Urlock Gaur, this armor represents the highest rank one can achieve within the Pact. Arnogaurs are tasked with the removal of traitors from the ranks, being the only rank who hold the permission outside the Gaur himself to kill members of the Pact.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Elites</li>
@@ -354,8 +354,8 @@
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_Goremagesuit</defName>
-        <label>Gore Mage Armor</label>
-        <description>Gore Mages are spellcasters of Khorne, based heavily in the beliefs of the ancient cults from which the Pact descends. Khornate mages are quite rare due to Khornes hatred of magic, so equipment for them tends to be scarce among his followers, resulting in Gore Mage apparel being fairly crude and heavily armored to encourage them to remain in the frontlines.</description>
+        <label>Gore Mage cuirass</label>
+        <description>The armor of a Gore Mage, a Chaos Psyker of the Blood Pact. \n\nGore Mages are spellcasters of Khorne, based heavily in the beliefs of the ancient cults from which the Pact descends. Khornate psykers are quite rare due to Khorne's hatred of magic, so equipment for them tends to be scarce among his followers - this makes Gore Mage apparel fairly crude and heavily armored to encourage them to remain on the frontlines.</description>
         <recipeMaker>
             <researchPrerequisites>
 			 <li>GW_BP_Elites</li>

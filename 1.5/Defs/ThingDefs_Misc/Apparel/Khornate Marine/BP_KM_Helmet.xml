@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_KhornemarineH</defName>
-		<label>Pact Berzerker Helmet</label>
-        <description>Chaos space marines dedicated to the worship of Khorne, they are driven by only one purpose: slaughter.\n\nthe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus.</description>
+		<label>Blood Berzerker helmet</label>
+        <description>A Power Armor helmet worn by Khornate Berzerkers. It is sturdy enough to withstand a torrent of enemy fire, allowing the Berzerker to leap into the fray and rend the corpse-worshippers apart. \n\n"Blood for the Blood God! Skulls for the Skull Throne!"</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Headgear/BP_BerserkerHelmet_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

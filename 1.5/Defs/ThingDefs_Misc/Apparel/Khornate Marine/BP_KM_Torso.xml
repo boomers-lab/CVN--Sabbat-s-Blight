@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_KhornemarineT</defName>
-		<label>Pact Berzerker Armor</label>
-        <description>Chaos space marines dedicated to the worship of Khorne, they are driven by only one purpose: slaughter.\n\nthe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus.</description>
+		<label>Blood Berzerker armor</label>
+        <description>The Power Armor of a Khornate Berzerker, complete with the markings of the World Eaters Traitor Legion on its shoulders. The pain of blows and projectiles that can pierce its thick ceramite is dulled by the white-hot rage of its wearer. \n\nThe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus - or rather, concentrated slaughter.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Torso/BP_BerserkerTorso_Male_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

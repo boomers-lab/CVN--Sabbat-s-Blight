@@ -4,7 +4,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_BP_PlasmaGun</defName>
         <label>Pact Plasma Gun</label>
-        <description>Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy.\n\nPlasma Guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pacts defeat on Urdesh</description>
+        <description>A human-sized plasma gun. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmarifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +98,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_BP_PlasmaPistol</defName>
         <label>Pact Plasma Pistol</label>
-        <description>Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy.\n\nPlasma Pistols are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pacts defeat on Urdesh</description>
+        <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while being used regularly with senior members & melee specialists.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmapistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>

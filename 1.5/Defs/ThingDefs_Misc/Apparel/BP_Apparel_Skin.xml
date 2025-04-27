@@ -22,7 +22,7 @@
 
     <ThingDef ParentName="CVN_BP_OnSkinBase">
         <defName>BP_Fatigues</defName>
-        <label>Pact Fatigues</label>
+        <label>Sirdar fatigues</label>
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>GW_BP_Basic</li>
@@ -38,7 +38,7 @@
 		<stuffCategories>
             <li>Fabric</li>
         </stuffCategories>
-	    <description>Standard guardsmen fatiques that have seen better times, likely kept after desertion or taken from a fallen soldier.</description>
+	    <description>Standard Imperial Guard fatigues that have seen better times, now pressed into service of the Blood Pact. These were likely kept after desertion or taken from a fallen soldier. \n\nThe battle-hardened Blood Pact were the core of the Chaos resistance forces in the Sabbat Worlds Crusade, fighting with a disciple unusual for Chaos cultists.</description>
         <costStuffCount>85</costStuffCount>
         <statBases>
             <MaxHitPoints>110</MaxHitPoints>
@@ -70,7 +70,7 @@
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
         <defName>BP_DBfatiques</defName>
-        <label>Death Brigade Fatiques</label>
+        <label>Death tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>GW_BP_Vanguard</li>
@@ -86,7 +86,7 @@
 		<stuffCategories>
 		    <li>Leathery</li>
         </stuffCategories>
-	    <description>Crudely sewn from thick pieces of leather, these fatiques are worn by more senior members of the Pact.</description>
+	    <description>Taking on a more ceremonial appearance, these tunic-like fatigues are worn by senior members of the Pact. The Death Brigade often serves at the vanguard of Blood Pact assaults and is a equivalent of Imperial Guard Storm Troopers. They are the most skilled — and the most feared — of all Blood Pact units.</description>
         <costStuffCount>125</costStuffCount>
         <statBases>
             <MaxHitPoints>125</MaxHitPoints>
@@ -118,7 +118,7 @@
 	
     <ThingDef ParentName="CVN_BP_OnSkinBase">
         <defName>BP_AGchainmail</defName>
-        <label>Arnogaur Chainmail</label>
+        <label>Arnogaur chainmail</label>
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>GW_BP_Elites</li>
@@ -168,7 +168,7 @@
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
         <defName>BP_Gorerobe</defName>
-        <label>Pact Robes</label>
+        <label>Gore Mage tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>GW_BP_Elites</li>
@@ -184,7 +184,7 @@
 		<stuffCategories>
 		    <li>Leathery</li>
         </stuffCategories>
-	    <description>Tattered Pact fatiques sewn into a crude robe.</description>
+	    <description>The uniform of a Gore Mage, a Chaos Psyker of the Blood Pact. \n\nTattered Blood Pact fatigues sewn into a crude robe, it was once a standard Imperial uniform, but it is now adorned with wrappings of old cloth and blood-tanned leather, giving a distinct and gruesome appearance.</description>
         <costStuffCount>95</costStuffCount>
         <statBases>
             <MaxHitPoints>110</MaxHitPoints>

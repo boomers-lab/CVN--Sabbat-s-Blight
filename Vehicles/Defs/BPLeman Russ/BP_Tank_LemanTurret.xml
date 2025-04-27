@@ -24,8 +24,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>BP_LemanRuss_MainTurret</defName>
-		<label>Leman Russ main cannon</label>
-		<description>A turret-mounted Battle Cannon used on the Leman Russ battle tank.</description>
+		<label>Leman Russ battle cannon</label>
+		<description>A main turret-mounted Battle Cannon. This is the standard ballistic weapon used as the primary turret armament of the Leman Russ Battle Tank, showing Urdesh manufacturing characteristics.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_BPLemanRuss_MainTurret</projectile>

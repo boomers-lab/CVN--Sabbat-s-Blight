@@ -3,7 +3,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_BP_Vehicle_HeavyStubber</defName>
 		<label>Heavy Stubber</label>
-		<description>WIP</description>
+		<description>A machine gun favored by gangers, insurgents, and lower-tech Planetary Defense Forces. They are better at crowd control than the LMGs of modern rimworlds, as they fire longer and more powerful bursts. \n\nThis pintle-mounted weapon serves as the Taurox's only offensive armament, providing fire support for its transported infantry.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>GW_Bullet_HeavyStubber</projectile>

@@ -5,7 +5,7 @@
 		<defName>GW_BP_Tech</defName>
 		<label>GW: Blood Pact</label>
 		<generalTitle>GW: Blood Pact</generalTitle>
-    	<generalDescription>Spiky, brutish, chaos underlings.</generalDescription>
+    	<generalDescription>Unlock technologies from the Blood Pact, a Khornate cult of warriors. A few projects require researches from the GrimWorld 40,000 tab.</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_BP_TechBase">
@@ -18,7 +18,7 @@
 		<defName>GW_BP_Basic</defName>
 		<label>Blood Pact</label>
 		<techLevel>Industrial</techLevel>
-        <description>The Blood Pact, terror of the Sabbat Worlds. They are the largest recorded Khornate cult in the known galaxy, research suggesting they worshipped the chaos gods long before the Imperiums claim to the region.</description>
+        <description>The Blood Pact, terror of the Sabbat Worlds, is the largest recorded Khornate cult in the known galaxy. Research suggests they worshipped the Chaos Gods long before the Imperium's claim to the region.</description>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
@@ -29,9 +29,9 @@
 	
     <ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_Vanguard</defName>
-		<label>Vanguard Arsenal</label>
+		<label>Vanguard arsenal</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Something, something, Death Brigade.</description>
+        <description>Earn your place among the ranks of the Death Brigade. Made up of the veterans and 'elite' soldiers of the Blood Pact, this vanguard spearheads its assaults and military campaigns, relying on improved gear and armor to ensure success.</description>
 		<prerequisites>
 			<li>GW_BP_Basic</li>
 		</prerequisites>
@@ -42,9 +42,9 @@
 	
     <ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_Elites</defName>
-		<label>Pact Elites</label>
+		<label>Pact elites</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Goremage, Arnogaur.</description>
+        <description>Receive permission to field elite units of the Pact. The Arnogaur, holding one of the highest ranks among the Pact, eliminatse any they deem unworthy or in violation of their codes. The Goremage, rogue psykers who use their unnatural powers to aid their kin in battle, often using their own blood in the process.</description>
 		<prerequisites>
 			<li>GW_BP_Vanguard</li>
 		</prerequisites>
@@ -55,9 +55,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_Legion</defName>
-		<label>Legionary Reinforcement</label>
+		<label>Legionary reinforcement</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Berzerker.</description>
+        <description>Gain access to Chaos Marine reinforcements. Khorne Berzerkers, devoted to the bloodthirsty glory of the Blood God, are the finest warriors to don this gear. They charge into battle armed with vicious chain weapons and pistols, delivering death in a frenzy of slaughter. For those who survive the Butcher's Nails, only an insatiable desire to kill, maim, and burn remains.</description>
 		<prerequisites>
 			<li>GW_BP_Elites</li>
 		</prerequisites>
@@ -68,9 +68,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_HeatWeapons</defName>
-		<label>Repurposed Heat Weaponry</label>
+		<label>Repurposed heat weaponry</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Meltas, Flamers.</description>
+        <description>Stolen equipment or, as they would say, "repurposed for more skilled individuals", these heavy weapons add much-needed firepower to the Blood Pact arsenal. True to their style, flamers and melta weapons, designed for up-close, personal death-dealing and anti-armor roles, fit seamlessly into their brutal and efficient tactics.</description>
 		<prerequisites>
 			<li>GW_BP_Vanguard</li>
 		</prerequisites>
@@ -81,9 +81,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_AntiArmorWeapons</defName>
-		<label>Anti-Armor Weapons</label>
+		<label>Anti-armor weapons</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Missiles, Plasma.</description>
+        <description>Gain access to anti-armor weapons. Like their Imperial counterparts, the Blood Pact uses frag and krak missiles to the same efficiency. An excellent blend of anti-armor or anti-personnel firepower, backed by plasma guns for dealing with heavy infantry and light vehicles.</description>
 		<prerequisites>
 			<li>GW_BP_Vanguard</li>
 		</prerequisites>
@@ -94,9 +94,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_Plunder</defName>
-		<label>Battlefield Plunder</label>
+		<label>Battlefield plunder</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Stolen from the Astra Militarum.</description>
+        <description>The Imperial Guard fights and dies all across the Imperium, their gear often left strewn and abandoned after endless campaigns is a treasure trove of supplies for the Blood Pact, who plunders it to reinforce their own campaigns and to keep their gear supplied.</description>
 		<prerequisites>
 			<li>GW_BP_Basic</li>
 		</prerequisites>
@@ -107,9 +107,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_MechSalvage</defName>
-		<label>Mechanical Salvage</label>
+		<label>Mechanical salvage</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Mechanical tables, Taurox.</description>
+        <description>Having plundered and conquered worlds in the Sabbat Cluster, the Blood Pact took Forge Worlds responsible for munitions production, such as Neffethyl and Urdesh, ensuring a steady supply of Imperial Guard and mechanized equipment to fuel their ongoing heretical campaigns.</description>
 		<prerequisites>
 			<li>GW_BP_Basic</li>
 		</prerequisites>
@@ -120,9 +120,9 @@
 
 	<ResearchProjectDef ParentName="GW_BP_TechBase">
 		<defName>GW_BP_ReclaimedArmor</defName>
-		<label>Reclaimed Heavy Armor</label>
+		<label>Reclaimed heavy armor</label>
 		<techLevel>Industrial</techLevel>
-        <description>WIP. Leman Russ.</description>
+        <description>Acquire heavy armor. Though the Blood Pact's mechanized capabilities may be seen as inferior, the Urdeshi-made Leman Russ is a battlefield threat that should never be underestimated.</description>
 		<prerequisites>
 			<li>GW_BP_MechSalvage</li>
 		</prerequisites>

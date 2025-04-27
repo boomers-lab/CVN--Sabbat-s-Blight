@@ -4,8 +4,8 @@
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_Flakhelm</defName>
-        <label>Pact Flak Helmet</label>
-        <description>A stolen flak helmet, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
+        <label>Salvaged Flak helmet</label>
+        <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque while lacking in facial protection.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet_south</texPath>
         </graphicData>
@@ -49,8 +49,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_Flakghelm</defName>
-        <label>Pact Gas Mask</label>
-        <description>A stolen flak helmet outfitted with a gas mask, either taken during desertion or looted from an armory. Repainted in the traditional Pact colors</description>
+        <label>Salvaged Gas-mask helmet</label>
+        <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. It features a familiar gas mask for added facial protection, while the helmet's fixed spikes can help in melee combat.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque helmets.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask_south</texPath>
         </graphicData>
@@ -97,8 +97,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_SirdarMaskA</defName>
-        <label>Grotesque A</label>
-        <description>The Grotesque, a facemask featuring a leering grin made of solid metal. Arguably the most iconic symbol of the pact, it instills a sense of dread in those who face them.</description>
+        <label>Sirdar grotesque grim</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is painted in dark, with round eyes that complement a perverse grin, a horrible sight on the battlefield.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA_south</texPath>
         </graphicData>
@@ -145,8 +145,8 @@
 	
     <ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_SirdarMaskB</defName>
-        <label>Grotesque B</label>
-        <description>The Grotesque, a facemask featuring a leering grin made of solid metal. Arguably the most iconic symbol of the pact, it instills a sense of dread in those who face them.</description>
+        <label>Sirdar grotesque maw</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is made of bare metal, with glaring eyes that complement its evil, grinning maw.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB_south</texPath>
         </graphicData>
@@ -193,8 +193,8 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_DBmaskA</defName>
-        <label>Death Brigade Grotesque A</label>
-        <description>Reinforced masks reserved for members of the Death Brigade.</description>
+        <label>Death grotesque visage</label>
+        <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA_south</texPath>
         </graphicData>
@@ -242,8 +242,8 @@
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_DBmaskB</defName>
-        <label>Death Brigade Grotesque B</label>
-        <description>Reinforced masks reserved for members of the Death Brigade.</description>
+        <label>Death grotesque wailer</label>
+        <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB_south</texPath>
         </graphicData>
@@ -291,7 +291,7 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>BP_Arnogaurmask</defName>
-        <label>Arnogaur Grotesque</label>
+        <label>Arnogaur grotesque</label>
         <description>A grotesque forged to imitate the visage of Urlock Gaur.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur_south</texPath>

@@ -65,7 +65,7 @@
     <ThingDef ParentName="BPFabricationBenchBase">
         <defName>CVN_BP_FabricationBench</defName>
         <label>Blood Pact workbench</label>
-        <description>A workbench stolen from the Astra Millitarum, intended more for restoring salvage to working order.</description>
+        <description>A workbench stolen from the Astra Militarum, intended for restoring salvage to working order. \n\nIt allows the Blood Pact to match their enemies in both offensive and defensive capabilities, fueling their relentless war machine.</description>
         <costList>
             <Steel>180</Steel>
             <ComponentIndustrial>4</ComponentIndustrial>

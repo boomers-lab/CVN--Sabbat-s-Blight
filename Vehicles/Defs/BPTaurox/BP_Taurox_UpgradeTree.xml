@@ -7,8 +7,8 @@
 		<nodes>
 			<li>
 				<key>PintleStubberUpgrade</key>
-				<label>Pintle Heavy Stubber</label>
-				<description>WIP</description>
+				<label>Pintle-mounted heavy stubber</label>
+				<description>A machine gun favored by gangers, insurgents, and lower-tech Planetary Defense Forces. They are better at crowd control than the LMGs of modern rimworlds, as they fire longer and more powerful bursts. \n\nThis pintle-mounted weapon serves as the Taurox's only offensive armament, providing fire support for its transported infantry.</description>
 				<icon>Things/Vehicles/BPTaurox/Turret/BP_HeavyStubber</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -60,8 +60,8 @@
 			</li>
 			<li>
 				<key>PintleStormBolterUpgrade</key>
-				<label>Pintle Storm Bolter</label>
-				<description>WIP</description>
+				<label>Pintle-mounted storm bolter</label>
+				<description>A compact, double-barreled version of the Boltgun, it is typically mounted on the vehicles of better off Imperial Regiments. The high-velocity bolts fired by a Storm Bolter can easily penetrate through eight inches of plasteel. \n\nThis pintle-mounted weapon serves as the Taurox's only anti-armor offensive armament, providing fire support for its transported infantry.</description>
 				<icon>Things/Item/Turrets/StormBolter/GW_HOI_PintleMounted_StormBolter</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 5)</gridCoordinate>

@@ -32,7 +32,7 @@
     <ThingDef ParentName="GW_AM_AutogunBase">
         <defName>GW_BP_Autogun</defName>
         <label>Pact Autogun</label>
-        <description>Automatic weapons usually issued to planetary defense forces. Autoguns while weaker then Lasguns, are far cheaper to produce and maintain.\n\nPact autoguns appear to pull from ancient terran designs involving historical revolts and uprisings, fitting for the image they believe themselves to have\n\nThis specific model is intended for higher accuracy</description>
+        <description>Automatic weapons usually issued to planetary defense forces. Autoguns while weaker then Lasguns, are far cheaper to produce and maintain.\n\nBlood Pact autoguns appear to pull from ancient terran designs involving historical revolts and uprisings, fitting for the image they believe themselves to have.\n\nThis specific model is intended for higher accuracy.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Autogun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -104,7 +104,7 @@
 	<ThingDef ParentName="GW_AM_AutogunBase">
         <defName>GW_BP_Autocarbine</defName>
         <label>Pact Autocarbine</label>
-        <description>Automatic weapons usually issued to planetary defense forces. Autoguns while weaker then Lasguns, are far cheaper to produce and maintain.\n\nPact autoguns appear to pull from ancient terran designs involving historical revolts and uprisings.</description>
+        <description>An automatic stub weapon, usually issued to planetary defense forces. Autoguns, while weaker then Lasguns, are far cheaper to produce and maintain. \n\nThe Pact's autoguns appear to pull from ancient Terran designs involving historical revolts and uprisings.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Autocarbine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -176,7 +176,7 @@
 	<ThingDef ParentName="GW_AM_AutogunBase">
     <defName>GW_BP_Autopistol</defName>
     <label>Pact Autopistol</label>
-    <description>A simple autopistol, unimpressive and weak. Autopistols main benefit is their high rate of fire, ease of production, and low maintenance\n\nPact pistols dont have many notable changes outside heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
+    <description>A simple autopistol, unimpressive and weak. Autopistols main benefit is their high rate of fire, ease of production, and low maintenance.\n\nPact pistols dont have many notable changes outside heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/BP_Autopistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -250,7 +250,7 @@
     <ThingDef ParentName="GW_AM_AutogunBase">
         <defName>GW_BP_Heavystubber</defName>
         <label>Pact Heavy stubber</label>
-        <description>Heavy stubbers are large autoguns usually employed on economically poor worlds that cannot maintain energy based armaments.\n\nThis is likely one of the few weapons fully manufactured by the pact, instead of the Forgeworld Urdesh</description>
+        <description>Heavy stubbers are large autoguns usually employed on economically poor worlds that cannot maintain energy based armaments. While inferior to higher-tech weapons of the same weight, it can still provide reliable firepower. \n\nThis is likely one of the few weapons fully manufactured by the Pact, instead of the Forgeworld of Urdesh.</description>
         <graphicData>
 	        <drawSize>1.4</drawSize>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Heavystubber</texPath>

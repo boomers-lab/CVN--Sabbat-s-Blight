@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_BP_MissileLauncher</defName>
 		<label>Pact Missile Launcher</label>
-		<description>A standard Astra Millitarum missile launcher, covered in red markings by its new owners.</description>
+		<description>A standard Astra Millitarum shoulder-fired guided missile launcher, covered in red markings by its new owners.\n\nA favorite of Heavy Weapons Teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Rocketlaucher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -92,7 +92,7 @@
 		<ThingDef ParentName="GW_AM_FlamerBase">
 		<defName>GW_BP_Flamer</defName>
 		<label>Blood Pact Flamer</label>
-		<description>Napalm sticks to loyalists.</description>
+		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

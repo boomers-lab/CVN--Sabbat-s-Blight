@@ -7,7 +7,7 @@
 			<li>
 				<key>DozerBlade</key>
 				<label>Dozer Blade</label>
-				<description>Reinforce the front bumper to allow this vehicle to deal more damage during collisions.</description>
+				<description>Ostensibly designed to clear rubble and push wrecked vehicles, these tools are often used by crews as improvised weapons, enabling their vehicles to inflict greater damage during collisions.</description>
 				<icon>Things/Vehicles/BPLemanRuss/BP_Ram/BP_Ram_east</icon>
 				<work>1800</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -56,8 +56,8 @@
 			</li>
 			<li>
 				<key>TurretSpikes</key>
-				<label>Turret Spikes</label>
-				<description>Embrace the signature look of Chaos, with spikes from Angron's fall 40,020 collection.</description>
+				<label>Turret spikes</label>
+				<description>Adding spikes to the main turret, crews seek extra protection in the thick of battle, impaling anyone who dares climb onto the vehicle to drop grenades into their hatches.</description>
 				<icon>Things/Vehicles/BPLemanRuss/BP_MainCannonSpikes/BP_MainCannon_Spikes</icon>
 				<work>1800</work>
 				<gridCoordinate>(5, 10)</gridCoordinate>
@@ -111,8 +111,8 @@
 			</li>
 			<li>
 				<key>TurretBarbs</key>
-				<label>Turret Barbed Wire</label>
-				<description>Embrace the signature look of Chaos, with spikes from Angron's fall 40,020 collection.</description>
+				<label>Turret barbed wire</label>
+				<description>Further enhancing crew protection, barbed wire is wrapped around the turret-mounted spikes. Blood Pact cresw sometimes decorate these with corpses, giving their forces a grotesque and gruesome appearance to terrify their enemies.</description>
 				<icon>Things/Vehicles/BPLemanRuss/BP_BarbWire/BP_MainCannon_BarbWire</icon>
 				<work>1800</work>
 				<prerequisiteNodes>

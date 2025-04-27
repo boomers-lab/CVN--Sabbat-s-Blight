@@ -127,7 +127,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>GW_BP_ChainSword</defName>
     <label>Pact Chainsword</label>
-    <description>One of the most feared close combat armaments in known space, this particular Chainsword has been salvaged for service in the Blood Pact.</description>
+    <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular Chainsword has been salvaged for service in the Blood Pact.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Chainsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -281,7 +281,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>GW_BP_PowerFist</defName>
         <label>Pact Power Fist</label>
-        <description>The Powerfist is a brutal but refined weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets. This fist is likely a gift from the World Eaters.</description>
+        <description>The Powerfist is a brutal but refined weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/BP_Powerfist</texPath>
             <graphicClass>Graphic_Single</graphicClass>

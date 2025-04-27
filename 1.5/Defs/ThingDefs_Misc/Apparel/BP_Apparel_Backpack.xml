@@ -4,8 +4,8 @@
 
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>BP_Backpack</defName>
-    <label>Pact Backpack</label>
-    <description>A basic backpack used by the Pact\n\nThe Pact teachs all of its members to grab anything they can, munitions are scarce, food even more so.</description>
+    <label>Salvaged battleline backpack</label>
+    <description>A basic battleline backpack used by the Blood Pact. \n\nThe Pact teaches all of its members to grab anything they can, munitions, food, and more. Backpacks like these allow their warriors to maintain supplies and battle readiness for longer campaigns.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -99,8 +99,8 @@
   
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>BP_BackpackM</defName>
-    <label>Pact Medicae Backpack</label>
-    <description>A basic backpack used by the Pact. This one has been outfitted with medical supplies\n\nThe Pact teachs all of its members to grab anything they can, munitions are scarce, food even more so.</description>
+    <label>Salvaged Medicae backpack</label>
+    <description>A basic backpack used by the Blood Pact. This one has been outfitted with crude medical supplies, resulting in better medical outcomes for those being tended. \n\nIt is rare for a Chaos cult to have medics, especially a Khornate one - after all, Khorne cares not from whence the blood flows. The presence of these medicae indicates a discipline among the Blood Pact that many others lack.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
@@ -195,8 +195,8 @@
   
   <ThingDef ParentName="ApparelNoQualityBase">
     <defName>BP_KhorneBackpack</defName>
-    <label>Pact Berzerker Backpack</label>
-    <description>A Power Armor backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.</description>
+    <label>Blood Berzerker backpack</label>
+    <description>A power armor backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.\n\nWhile permanently joining a cult would reduce an Astarte's ability to maintain their equipment, the Pact provides a more organized enviroment for Khornate Berzerkers.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
