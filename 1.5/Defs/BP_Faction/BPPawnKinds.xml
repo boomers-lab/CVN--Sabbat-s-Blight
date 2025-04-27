@@ -271,16 +271,17 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Melee</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>4000~4500</apparelMoney>
+        <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>BP_DBfatigues</li>
+        </apparelRequired>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
+            <li>BPapparelskin2</li>
         </apparelTags>
-        <apparelRequired>
-            <li>BP_DBfatiques</li>
-        </apparelRequired>
         <weaponTags>
             <li>BPMelee1</li>
             <li>BPMelee2</li>
@@ -304,15 +305,16 @@
      <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Ranged</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>4000~4500</apparelMoney>
+        <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
+            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatiques</li>
+            <li>BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged1</li>
@@ -338,19 +340,19 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Gunner</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>4000~4500</apparelMoney>
+        <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
+            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatiques</li>
+            <li>BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged3</li>
-            <li>BPranged4</li>
         </weaponTags>
         <weaponMoney>700~1550</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -374,15 +376,16 @@
     <PawnKindDef ParentName="GW_BP_PawnBase">
         <defName>GW_BP_DeathBrigade_Demo</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>4000~4500</apparelMoney>
+        <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
             <li>BP_Pouchs</li>
+            <li>BPapparelskin2</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatiques</li>
+            <li>BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged4</li>

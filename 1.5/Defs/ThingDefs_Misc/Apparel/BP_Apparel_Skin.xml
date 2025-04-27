@@ -69,7 +69,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>BP_DBfatiques</defName>
+        <defName>BP_DBfatigues</defName>
         <label>Death tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
@@ -84,9 +84,10 @@
             <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Onskin/BP_DeathBOnskin_Male_south</texPath>
         </graphicData>
 		<stuffCategories>
+            <li>Fabric</li>
 		    <li>Leathery</li>
         </stuffCategories>
-	    <description>Taking on a more ceremonial appearance, these tunic-like fatigues are worn by senior members of the Pact. The Death Brigade often serves at the vanguard of Blood Pact assaults and is a equivalent of Imperial Guard Storm Troopers. They are the most skilled — and the most feared — of all Blood Pact units.</description>
+	    <description>Taking on a more ceremonial appearance, these tunic-like fatigues are worn by senior members of the Pact. The Death Brigade often serves at the vanguard of Blood Pact assaults and is a equivalent of Imperial Guard Storm Troopers. They are the most skilled and the most feared of all Blood Pact units.</description>
         <costStuffCount>125</costStuffCount>
         <statBases>
             <MaxHitPoints>125</MaxHitPoints>
