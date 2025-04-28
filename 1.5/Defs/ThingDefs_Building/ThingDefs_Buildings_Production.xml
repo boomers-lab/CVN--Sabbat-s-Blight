@@ -80,4 +80,11 @@
         </researchPrerequisites>
     </ThingDef>
 
+    <WorkGiverDef ParentName="GWFabricationWorkGiverBase">
+        <defName>DoBills_BP_FabricationBench</defName>
+        <fixedBillGiverDefs>
+            <li>CVN_BP_FabricationBench</li>
+        </fixedBillGiverDefs>
+    </WorkGiverDef>
+
 </Defs>

@@ -21,7 +21,6 @@
         <requiredMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
         </requiredMemes>
         <disallowedPrecepts>
