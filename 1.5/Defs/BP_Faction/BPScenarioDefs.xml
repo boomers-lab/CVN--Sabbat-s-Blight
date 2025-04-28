@@ -9,7 +9,7 @@
             <summary>A wayward warband led by a Sirdar, intent on recruiting followers to the blood pact, and conquering this world for the Warlord of the Sabbat Sector.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
-                <factionDef>GW_Bloodpact</factionDef>
+                <factionDef>GW_Bloodpact_Player</factionDef>
             </playerFaction>
             <parts>
 

@@ -25,7 +25,10 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
         </requiredMemes>
         <disallowedPrecepts>
-            <li>Slavery_Classic</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
@@ -51,6 +54,7 @@
     <label>Blood Pact</label>
     <description>A Blood Pact base of operations.</description>
     <configurationListOrderPriority>990</configurationListOrderPriority>
+    <basicMemberKind>GW_BP_Initiate</basicMemberKind>
     <leaderTitle>Warlord</leaderTitle>
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
@@ -153,5 +157,44 @@
           </pawnGroupMakers>
 
       <allowedArrivalTemperatureRange>-10~45</allowedArrivalTemperatureRange>
+  </FactionDef>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>GW_Bloodpact_Player</defName>
+    <label>Blood Pact</label>
+    <description>A Blood Pact base of operations.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>GW_BP_Sirdar_Ranged</basicMemberKind>
+    <pawnSingular>Soldier</pawnSingular>
+    <pawnsPlural>Soldiers</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>GW_Namer_BloodPact</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <colorSpectrum>
+      <li>(0.54, 0.17, 0.16)</li>
+    </colorSpectrum>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Leather_Plain</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
   </FactionDef>
 </Defs>
