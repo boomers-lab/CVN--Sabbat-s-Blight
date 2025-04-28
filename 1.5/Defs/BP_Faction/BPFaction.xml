@@ -20,9 +20,9 @@
         <canStageAttacks>true</canStageAttacks>
         <requiredMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
         </requiredMemes>
         <disallowedPrecepts>
             <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
