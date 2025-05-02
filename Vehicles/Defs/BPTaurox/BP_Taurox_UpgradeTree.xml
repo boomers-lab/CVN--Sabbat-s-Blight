@@ -62,7 +62,7 @@
 				<key>PintleStormBolterUpgrade</key>
 				<label>Pintle-mounted storm bolter</label>
 				<description>A compact, double-barreled version of the Boltgun, it is typically mounted on the vehicles of better off Imperial Regiments. The high-velocity bolts fired by a Storm Bolter can easily penetrate through eight inches of plasteel. \n\nThis pintle-mounted weapon serves as the Taurox's only anti-armor offensive armament, providing fire support for its transported infantry.</description>
-				<icon>Things/Item/Turrets/StormBolter/GW_HOI_PintleMounted_StormBolter</icon>
+				<icon>Things/Item/Turrets/StormBolter/GW_PintleMounted_StormBolter</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 5)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
